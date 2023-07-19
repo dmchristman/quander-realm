@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Intro
   num: 2
-  text: Oh hey Tangle, what's going on? Why do you look so distressed?
-  speaker: 1
-  speakerExpression: 0
+  text: 'That''s right! You have to beat me in game of chance. But I''ll teach you
+    and let you practice! Then maybe you will win. '
+  speaker: 3
+  speakerExpression: 1
   listener: 2
-  listenerExpression: 0
+  listenerExpression: 2
   contextImagePath: 

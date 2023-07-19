@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Customer
+  - Coin
+  - CakeBox
+  - Table
+  - InfoPanel
+  - Gate
+  - Belt
   layers:
   - Default
   - TransparentFX
@@ -11,8 +18,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - CakeBox
+  - Table
   - 
   - 
   - 
@@ -40,4 +47,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Belt
+    uniqueID: 3452774565
+    locked: 0
+  - name: CakeBox
+    uniqueID: 3807581029
+    locked: 0
+  - name: Entanglement Label
+    uniqueID: 3152378081
+    locked: 0
+  - name: Gate
+    uniqueID: 4022611763
     locked: 0

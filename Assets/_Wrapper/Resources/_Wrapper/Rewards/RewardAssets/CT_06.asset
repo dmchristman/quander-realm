@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CT_06
   m_EditorClassIdentifier: 
   game: 1
-  level: 15
+  level: 12
   rewardID: CT_06
   cardType: 2
   title: CNOT gate

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: CT_Level14
   num: 4
-  text: 'this one, which is a Controlled-Z-Gate, or CZ. '
+  text: And this pattern simplifies to just a CNOT Gate!! Amazing!!!!!!!!
   speaker: 2
-  speakerExpression: 0
-  listener: 0
+  speakerExpression: 1
+  listener: 1
   listenerExpression: 0
-  contextImagePath: 
+  contextImagePath: Circuits/ContextImages/HCXH

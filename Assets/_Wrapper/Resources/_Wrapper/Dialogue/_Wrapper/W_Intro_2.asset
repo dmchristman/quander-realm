@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: W_Intro
   num: 2
-  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-    incididunt ut labore et dolore magna aliqua.
-  speaker: 1
-  speakerExpression: 1
-  listener: 0
+  text: Sorry, Molly, the quantum computer I've been trying to build exploded! I
+    wonder if my archnemesis, Byte, had something to do with this!
+  speaker: 2
+  speakerExpression: 2
+  listener: 1
   listenerExpression: 0
-  contextImagePath: _Wrapper/ContextImages/JITImage_Placeholder_Wide
+  contextImagePath: 

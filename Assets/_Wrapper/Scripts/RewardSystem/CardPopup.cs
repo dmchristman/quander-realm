@@ -18,6 +18,7 @@ namespace Wrapper
 
         public IEnumerator DisplayCard(GameObject rewardGO)
         {
+            Events.PlaySound?.Invoke("W_Reward");
             rewardGO.transform.SetParent(cardContainer.transform);
             rewardGO.GetComponent<Transform>().localScale = new Vector3(0.8f, 0.8f, 0.8f);
 

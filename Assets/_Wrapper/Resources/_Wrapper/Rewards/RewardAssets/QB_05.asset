@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: QB_05
   m_EditorClassIdentifier: 
   game: 3
-  level: 9
+  level: 3
   rewardID: QB_05
   cardType: 2
   title: Measured Token

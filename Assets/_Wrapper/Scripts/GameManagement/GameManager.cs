@@ -18,12 +18,12 @@ namespace Wrapper
         private const string introSequenceID = "W_Intro";
 
         [SerializeField] private float loadingToggleDelay = 0.5f;
-        [SerializeField] private GameObject loginScreen;
-        [SerializeField] private GameObject debugScreen;
+        [SerializeField] private DebugScreen debugScreen;
         [SerializeField] private Button debugButton;
         [SerializeField] private SaveManager saveManager;
         [SerializeField] private CardPopup cardPopup;
         [SerializeField] private GameObject loadingScreenPrefab;
+        [SerializeField] Button universalBackButton;
 
         [Header("Reward Card Prefabs")]
         [SerializeField] private GameObject BBRewardPrefab;
@@ -37,6 +37,17 @@ namespace Wrapper
         public Dictionary<CardType, Color> colorDict;
         public Dictionary<Game, GameObject> prefabDict;
 
+        [SerializeField, Tooltip("For the first card received in each minigame, if none keep blank")] GameCardDialogPair[] rewardDialogIDs;
+        [SerializeField] MinigameTitles minigameTitles;
+        Game currentGame = Game.None;
+
+        [System.Serializable]
+        struct GameCardDialogPair
+        {
+            public Game game;
+            public string cardDialog;
+        }
+
         #region Unity Functions
 
         private void Awake()
@@ -45,38 +56,51 @@ namespace Wrapper
             InitColorDict();
             InitPrefabDict();
             InitRewardAssetArray();
-            Routine.Start(IntroDialogueRoutine()); //todo: also wait for loadingScreenGO to be null?
-            debugButton.onClick.AddListener(() => debugScreen.SetActive(!(debugScreen.activeInHierarchy))); //todo: debug, delete later
+            //Routine.Start(IntroDialogueRoutine()); //todo: also wait for loadingScreenGO to be null?      -> moved to its own method to call after title screen
+            if (debugScreen.DebugEnabled)
+            {
+                debugButton.gameObject.SetActive(true);
+                debugButton.onClick.AddListener(() => debugScreen.gameObject.SetActive(!(debugScreen.gameObject.activeInHierarchy)));
+            }
+            else debugButton.gameObject.SetActive(false);
             Input.multiTouchEnabled = false;
         }
 
         private void Start()
         {
-            if (!(saveManager.isUserLoggedIn))
-            {
-                loginScreen.SetActive(true);
-                Events.OpenLoginScreen?.Invoke();
-            }
-
-            Events.PlayMusic?.Invoke("WrapperTheme");
+            BackToMain();
         }
 
         private void OnEnable()
         {
             Events.OpenMinigame += OpenMinigame;
             Events.CreatRewardCard += CreateCard;
-            Events.ShowCardPopup += ShowCardPopup; // Debug
+            if (debugScreen.DebugEnabled) Events.ShowCardPopup += ShowCardPopup; // Debug
             Events.ToggleLoadingScreen += ToggleLoadingScreen;
             Events.CollectAndDisplayReward += CollectAndDisplayReward;
+            Events.ToggleBackButton += ToggleBackButton;
+            Events.Logout += Logout;
+            Events.PlayIntroDialog += PlayIntroDialog;
+            Events.MinigameClosed += BackToMain;
+            Events.GetMinigameTitle += GetGameTitle;
+            Events.GetCurrentGame += GetCurrentGame;
+            Events.IsDebugEnabled += () => debugScreen.DebugEnabled;
         }
 
         private void OnDisable()
         {
             Events.OpenMinigame -= OpenMinigame;
             Events.CreatRewardCard -= CreateCard;
-            Events.ShowCardPopup -= ShowCardPopup; // Debug
+            if (debugScreen.DebugEnabled) Events.ShowCardPopup -= ShowCardPopup; // Debug
             Events.ToggleLoadingScreen -= ToggleLoadingScreen;
             Events.CollectAndDisplayReward -= CollectAndDisplayReward;
+            Events.ToggleBackButton -= ToggleBackButton;
+            Events.Logout -= Logout;
+            Events.PlayIntroDialog -= PlayIntroDialog;
+            Events.MinigameClosed -= BackToMain;
+            Events.GetMinigameTitle -= GetGameTitle;
+            Events.GetCurrentGame -= GetCurrentGame;
+            Events.IsDebugEnabled -= () => debugScreen.DebugEnabled;
         }
 
         #endregion
@@ -84,6 +108,19 @@ namespace Wrapper
         private void OpenMinigame(Minigame minigame)
         {
             SceneManager.LoadScene(minigame.StartScene);
+            currentGame = minigame.gameValue;
+        }
+
+        void BackToMain()
+        {
+            if (!saveManager.isUserLoggedIn) Events.OpenLoginScreen?.Invoke();
+            else
+            {
+                Events.CloseLoginScreen?.Invoke();
+                Events.ToggleTitleScreen?.Invoke(false);
+            }
+            Events.PlayMusic?.Invoke("W_Music");
+            currentGame = Game.None;
         }
 
         private void ToggleLoadingScreen()
@@ -99,15 +136,20 @@ namespace Wrapper
             RewardAsset levelReward = Array.Find(rewardAssets, (reward) => reward.game == game && reward.level == level);
             if (levelReward == null)
             {
-                Debug.LogFormat("No Reward found for game {1} level {2}", game, level);
+                Debug.LogFormat("No Reward found for {0} level {1}", game.ToString(), level);
                 return;
             }
 
             bool rewardAdded = Events.AddReward?.Invoke(levelReward.rewardID) ?? false;
 
             if (rewardAdded)
+            {
                 Routine.Start(cardPopup.DisplayCard(CreateCard(levelReward.rewardID, cardPopup.GetContainerMount(), DisplayType.CardPopup)));
 
+                // if this is the first reward from this game, display the reward dialog 
+                if (Events.GetFirstRewardBool(levelReward.rewardID.Substring(0, 2).ToLower()))
+                    Events.StartDialogueSequence?.Invoke(rewardDialogIDs[(int)game].cardDialog);
+            }
             ////todo: call a function that creates the card and displays it in the reward card panel
             //Debug.LogFormat("Won Reward {0} in game {1} at level {2}", levelReward.rewardID, game, level);
             //    Routine.Start(DestroyLoadingScreen()); //todo: debug, delete later
@@ -135,6 +177,17 @@ namespace Wrapper
             rewardGO.GetComponent<Reward>().SetContent(rAsset, colorDict[rAsset.cardType], displayType);
 
             return rewardGO;
+        }
+
+        void ToggleBackButton(bool show)
+        {
+            universalBackButton.gameObject.SetActive(show);
+        }
+
+        void Logout()
+        {
+            saveManager.Logout();
+            BackToMain();
         }
 
         #region Helpers
@@ -182,6 +235,11 @@ namespace Wrapper
             };
         }
 
+        void PlayIntroDialog()
+        {
+            Routine.Start(IntroDialogueRoutine());
+        }
+
         private IEnumerator IntroDialogueRoutine()
         {
             while (!(saveManager.isUserLoggedIn) || !(saveManager.currentUserSave != null))
@@ -192,6 +250,7 @@ namespace Wrapper
 
             Events.StartDialogueSequence?.Invoke(introSequenceID);
             saveManager.ToggleIntroDialogueSeen(true);
+            Events.SetNewPlayerStatus?.Invoke(false);
         }
 
         // todo: debug, delete later
@@ -219,6 +278,16 @@ namespace Wrapper
         {
             foreach (Transform child in mount.transform)
                 Destroy(child.gameObject);
+        }
+
+        string GetGameTitle(Game game)
+        {
+            return minigameTitles.Entries[(int)game];
+        }
+
+        Game GetCurrentGame()
+        {
+            return currentGame;
         }
 
         #endregion

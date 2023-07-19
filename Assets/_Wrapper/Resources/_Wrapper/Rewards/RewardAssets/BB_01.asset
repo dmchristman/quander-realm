@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BB_01
   m_EditorClassIdentifier: 
   game: 0
-  level: 1
+  level: 5
   rewardID: BB_01
   cardType: 1
   title: Cryogenic Coolant
@@ -26,4 +26,4 @@ MonoBehaviour:
     -Liquid helium is a few degrees above absolute zero temperature
     (really cold!), so it is, um, super cool'
   flavorText: Beat the heat!
-  imagePath: _Wrapper/Rewards/RewardImages_BlackBox/_18_LiquidHelium
+  imagePath: _Wrapper/Rewards/RewardImages_BlackBox/_18_liquid helium

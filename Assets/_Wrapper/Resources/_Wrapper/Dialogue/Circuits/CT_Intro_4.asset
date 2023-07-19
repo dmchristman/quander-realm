@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: CT_Intro
   num: 4
-  text: " It means that I can\u2019t get to any of my gadgets, tools, or toys until
-    we fix the locks!!!"
-  speaker: 2
-  speakerExpression: 2
-  listener: 1
-  listenerExpression: 0
+  text: "Well, I\u2019ll give it a shot! Let's go!"
+  speaker: 1
+  speakerExpression: 1
+  listener: 2
+  listenerExpression: 1
   contextImagePath: 

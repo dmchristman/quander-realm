@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: QB_07
   m_EditorClassIdentifier: 
   game: 3
-  level: 13
+  level: 6
   rewardID: QB_07
   cardType: 3
   title: Probability
-  backText: '-Probability lets us make predictions. So, if you flip a coin, there
+  backText: '-Probability lets us make predictions. So, if you flip a coin there
     is a 50% probability it will land on either heads or tails
 
     -In quantum science,

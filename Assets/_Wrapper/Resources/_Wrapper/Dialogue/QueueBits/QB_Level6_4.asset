@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Level6
   num: 4
-  text: This time, when you drop a token, it won't reveal its color immediately,
-    but will stay in its superposition intead.
+  text: Once the whole board is filled, the tokens will reveal their colors in the
+    order that they were dropped.
   speaker: 3
   speakerExpression: 0
   listener: 2
   listenerExpression: 0
-  contextImagePath: 
+  contextImagePath: QueueBits/ContextImages/Dialogue5-Measure1

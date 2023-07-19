@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Level3
   num: 6
-  text: 'Uhh I''m still not sure I understand. '
-  speaker: 2
+  text: Let's see who wins now!
+  speaker: 3
   speakerExpression: 0
-  listener: 3
+  listener: 0
   listenerExpression: 0
   contextImagePath: 

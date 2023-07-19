@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: CT_Level9
   num: 2
-  text: "Two Not-Gates cancel out, so you don\u2019t have to worry about them as
-    much anymore!"
+  text: 'Two NOT Gates right next to each other just cancel out-- poof, just like
+    that. '
   speaker: 2
-  speakerExpression: 0
-  listener: 0
+  speakerExpression: 1
+  listener: 1
   listenerExpression: 0
-  contextImagePath: 
+  contextImagePath: Circuits/ContextImages/XX

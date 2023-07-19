@@ -3608,7 +3608,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.52846515, y: 0.5}
-  m_AnchoredPosition: {x: -41.02594, y: 11.05}
+  m_AnchoredPosition: {x: -41.026367, y: 11.05}
   m_SizeDelta: {x: 936.84, y: 1320.96}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &9172526991974566977
@@ -3689,7 +3689,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Qupcakes
+  m_text: Qupcakery
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e51232ab63b234e46be042cae1c5ec51, type: 2}
   m_sharedMaterial: {fileID: -3319313598973243095, guid: e51232ab63b234e46be042cae1c5ec51, type: 2}
@@ -5492,11 +5492,6 @@ MonoBehaviour:
   visibleRewardsMount: {fileID: 4951701228393399007}
   hiddenRewardsMount: {fileID: 6941090942600317815}
   featuredCardMount: {fileID: 4951701228445692372}
-  BBRewardPrefab: {fileID: 1309896438385295909, guid: 5bae8a8eb8691d2459e0d9f724ac3363, type: 3}
-  CTRewardPrefab: {fileID: 2541008831443918794, guid: d8566c06035146248a7e81117c1ed8f6, type: 3}
-  LARewardPrefab: {fileID: 2541008831443918794, guid: 46a8d66ea2697d940a7bfd8713457690, type: 3}
-  QBRewardPrefab: {fileID: 2541008831443918794, guid: 828915e01901b8847bab03c2b237b51b, type: 3}
-  QURewardPrefab: {fileID: 2541008831443918794, guid: 1ba14e653a2bf3843b0e28f6c9206c19, type: 3}
   BBTab: {fileID: 4951701228015962690}
   CTTab: {fileID: 4951701227984224181}
   LATab: {fileID: 4951701227865999449}
@@ -5550,7 +5545,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -41.5, y: 0.19999981}
+  m_AnchoredPosition: {x: -60, y: 0.19999981}
   m_SizeDelta: {x: 220.95001, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4951701229508963262
@@ -5581,7 +5576,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Labyrinth
+  m_text: Twin Tanglement
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e51232ab63b234e46be042cae1c5ec51, type: 2}
   m_sharedMaterial: {fileID: -3319313598973243095, guid: e51232ab63b234e46be042cae1c5ec51, type: 2}
@@ -5887,7 +5882,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -41.5, y: -0.19999981}
+  m_AnchoredPosition: {x: -60, y: -0.19999981}
   m_SizeDelta: {x: 171.24, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4951701229660936767
@@ -5918,7 +5913,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Circuits
+  m_text: Tangle's Lair
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e51232ab63b234e46be042cae1c5ec51, type: 2}
   m_sharedMaterial: {fileID: -3319313598973243095, guid: e51232ab63b234e46be042cae1c5ec51, type: 2}

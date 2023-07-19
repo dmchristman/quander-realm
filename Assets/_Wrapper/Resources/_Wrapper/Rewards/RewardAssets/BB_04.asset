@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: BB_04
   m_EditorClassIdentifier: 
   game: 0
-  level: 7
+  level: 3
   rewardID: BB_04
   cardType: 0
   title: Bat Molly
   backText: "Name: Bat Molly Cule \nRole: Bat version of Molly Cule, Wane's bestie\nHobbies:
     Flying, because it's awesome \nBirthday: Wait, do I get two birthdays? "
   flavorText: Next up to bat... Molly Cule!
-  imagePath: _Wrapper/Rewards/RewardImages_BlackBox/RewardImage_BlackBox_Placeholder01
+  imagePath: _Wrapper/Rewards/RewardImages_BlackBox/_21_Bat

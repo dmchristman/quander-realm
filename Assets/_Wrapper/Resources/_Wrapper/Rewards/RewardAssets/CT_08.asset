@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CT_08
   m_EditorClassIdentifier: 
   game: 1
-  level: 20
+  level: 2
   rewardID: CT_08
   cardType: 3
   title: Gate Simplification

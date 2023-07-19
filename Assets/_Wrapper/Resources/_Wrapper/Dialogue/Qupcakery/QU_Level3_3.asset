@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QU_Level3
   num: 3
-  text: Alright, back to work! We have hungry customers waiting on their cupcakes!
-  speaker: 9
-  speakerExpression: 0
-  listener: 0
+  text: Alright, back to work! We have hungry customers waiting on their qupcakes!
+  speaker: 1
+  speakerExpression: 1
+  listener: 9
   listenerExpression: 0
   contextImagePath: 

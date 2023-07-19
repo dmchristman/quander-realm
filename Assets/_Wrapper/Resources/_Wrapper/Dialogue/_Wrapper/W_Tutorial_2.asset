@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: W_Tutorial
   num: 2
-  text: 'Hello World! '
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua.
   speaker: 1
   speakerExpression: 1
-  listener: 2
-  listenerExpression: 2
+  listener: 0
+  listenerExpression: 0
   contextImagePath: 

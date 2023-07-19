@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CT_03
   m_EditorClassIdentifier: 
   game: 1
-  level: 6
+  level: 17
   rewardID: CT_03
   cardType: 0
   title: Tangle
@@ -26,7 +26,7 @@ MonoBehaviour:
     receiving the correct number of belly rubs
 
     Favorite Toys: Laser (coolers),
-    Schroedinger boxes
+    Schrodinger boxes
 
     Birthday: March 17th '
   flavorText: What's it called when you stack two cats on top of each other? Supurrposition

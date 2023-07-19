@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: LA_06
   m_EditorClassIdentifier: 
   game: 2
-  level: 9
+  level: 10
   rewardID: LA_06
   cardType: 2
   title: 'Ladder '
-  backText: "-Solving the mazes requires team work! \n-The twin with an opening can
+  backText: "-Solving the mazes requires teamwork! \n-The twin with an opening can
     help their sibling tunnel through\n-Navigate from one ladder to the next to level
     up"
   flavorText: Tunnels, ladders, and mazes... Oh my!

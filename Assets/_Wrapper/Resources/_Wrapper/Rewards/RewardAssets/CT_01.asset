@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CT_01
   m_EditorClassIdentifier: 
   game: 1
-  level: 1
+  level: 15
   rewardID: CT_01
   cardType: 1
   title: Quantum Circuit

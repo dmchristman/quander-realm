@@ -276,6 +276,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+  audioName: W_MapButton
   minigame: {fileID: 11400000, guid: 679655ec33a25a14a8c8cb4ddf980311, type: 2}
 --- !u!95 &1426495685112302851
 Animator:

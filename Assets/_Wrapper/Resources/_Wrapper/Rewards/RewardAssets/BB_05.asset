@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BB_05
   m_EditorClassIdentifier: 
   game: 0
-  level: 9
+  level: 2
   rewardID: BB_05
   cardType: 2
   title: Lantern
@@ -23,6 +23,6 @@ MonoBehaviour:
     -In this game, Molly''s flight path gives you a little bit of info
 
     -In
-    quantum computing, measurement also only gives you partial information. '
+    quantum computing, measurement also only gives you partial information'
   flavorText: Turn. Return. Lantern.
-  imagePath: _Wrapper/Rewards/RewardImages_BlackBox/RewardImage_BlackBox_Placeholder01
+  imagePath: _Wrapper/Rewards/RewardImages_BlackBox/_22_Lantern

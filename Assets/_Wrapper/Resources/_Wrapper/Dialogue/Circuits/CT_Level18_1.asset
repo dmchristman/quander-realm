@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: CT_Level18
   num: 1
-  text: "Wow, you did SO great with that!! So great that I have a new challenge for
-    you\u2026"
+  text: 'Wow, you did SO great with that!! '
   speaker: 2
   speakerExpression: 1
-  listener: 0
+  listener: 1
   listenerExpression: 0
   contextImagePath: 

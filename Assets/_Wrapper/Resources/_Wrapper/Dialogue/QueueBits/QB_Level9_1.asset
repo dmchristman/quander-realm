@@ -15,7 +15,7 @@ MonoBehaviour:
   sequenceID: QB_Level9
   num: 1
   text: Looks like Tangle still hasn't woken up yet. I guess we'll need to play solo
-    this round too! Click next to play Level 9
+    this round too!
   speaker: 1
   speakerExpression: 0
   listener: 0

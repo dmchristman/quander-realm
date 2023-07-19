@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: CT_Intro
   num: 1
-  text: "Hi Tangle! How\u2019s it going?"
-  speaker: 1
-  speakerExpression: 1
-  listener: 2
-  listenerExpression: 0
+  text: Oh, no! Can you believe this explosion? I need to get stuff out of my lair,
+    but can you help me with the locks?
+  speaker: 2
+  speakerExpression: 2
+  listener: 1
+  listenerExpression: 2
   contextImagePath: 

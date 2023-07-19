@@ -6,6 +6,7 @@ namespace Wrapper
     public class Minigame : ScriptableObject
     {
         public string StartScene;
-        public new string name; 
+        public new string name;
+        public Game gameValue;
     }
 }

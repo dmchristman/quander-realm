@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Intro
   num: 3
-  text: It's Byte! You know, my next door neighbor. He stole my 2D qubit array and
-    won't give it back to me!
+  text: The problem is it's naptime and I keep falling asleep and can't keep track
+    of the game. Please help me! I need to defeat him.
   speaker: 2
-  speakerExpression: 0
+  speakerExpression: 2
   listener: 1
-  listenerExpression: 0
+  listenerExpression: 1
   contextImagePath: 

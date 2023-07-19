@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QU_Level8
   num: 2
-  text: "This is the chocolate-powered flavor-inverter \u2013 CNOT or Controlled-NOT
-    gate!"
+  text: This is the chocolate-powered flavor-inverter.
   speaker: 9
   speakerExpression: 0
   listener: 0

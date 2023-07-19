@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: QB_01
   m_EditorClassIdentifier: 
   game: 3
-  level: 3
+  level: 15
   rewardID: QB_01
   cardType: 1
   title: Qubit

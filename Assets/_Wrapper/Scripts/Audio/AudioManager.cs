@@ -52,6 +52,8 @@ namespace Wrapper
 
         private void PlayMusic(string name)
         {
+            StopMusic();
+
             Audio audio = GetAudio(name);
             if (audio == null)
             {

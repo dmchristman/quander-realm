@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: BB_07
   m_EditorClassIdentifier: 
   game: 0
-  level: 13
+  level: 7
   rewardID: BB_07
   cardType: 3
   title: Quantum Science
-  backText: '-Quantum let us know how nature works when things get very small
+  backText: '-Quantum lets us know how nature works when things get very small
 
     -Example
     quantum things: atoms, photons, electrons, properties of some physical circuits

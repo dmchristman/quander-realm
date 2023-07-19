@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: CT_Level14
   num: 5
-  text: "You don\u2019t need to know how these work right now, just that the pattern
-    above simplifies to just a CNOT Gate!! Amazing!!!!!!!!"
+  text: "\u2026 I can hardly CONTROL my excitement about these puzzles. "
   speaker: 2
   speakerExpression: 1
-  listener: 0
+  listener: 1
   listenerExpression: 0
   contextImagePath: 

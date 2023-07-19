@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Level15
   num: 2
-  text: ... as soon as he wakes up. Anyways, click next to play Level 15
+  text: '... as soon as you wake up. Anyways, let''s win this final round! '
   speaker: 1
-  speakerExpression: 0
-  listener: 0
-  listenerExpression: 0
+  speakerExpression: 1
+  listener: 2
+  listenerExpression: 2
   contextImagePath: 

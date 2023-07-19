@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Level2
   num: 1
-  text: Great job! This next one may be a little harder, but I'm sure we can win
-    it! Click on Level 2 to start
+  text: We can do it, Tangle! I'm sure we can!
   speaker: 1
-  speakerExpression: 0
-  listener: 0
-  listenerExpression: 0
+  speakerExpression: 1
+  listener: 2
+  listenerExpression: 1
   contextImagePath: 

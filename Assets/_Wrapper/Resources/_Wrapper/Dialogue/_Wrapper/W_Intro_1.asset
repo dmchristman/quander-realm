@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: W_Intro
   num: 1
-  text: Welcome to Quander
+  text: Tangle, what happened?!?
   speaker: 1
-  speakerExpression: 1
-  listener: 0
-  listenerExpression: 0
+  speakerExpression: 0
+  listener: 2
+  listenerExpression: 2
   contextImagePath: 

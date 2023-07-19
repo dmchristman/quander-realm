@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: LA_03
   m_EditorClassIdentifier: 
   game: 2
-  level: 3
+  level: 4
   rewardID: LA_03
   cardType: 0
-  title: Frank
-  backText: "Name: Frank\nRole: Cautious security guard of the regional blood bank
-    \nHobbies: Synchronized swimming and tandem bicycling\nFavorite games: Seesaw,
-    hide-and-seek\nBirthday: Jan 1, 1818 "
+  title: Fran
+  backText: "Name: Fran\nRole: Cautious security guard of the regional blood bank,
+    Ken's responsible older twin sister \nHobbies: Synchronized swimming and tandem
+    bicycling\nFavorite games: Seesaw, hide-and-seek\nBirthday: Jan 1, 1818 "
   flavorText: Despite whatever physical distances, Ken and I are never truly apart.
   imagePath: _Wrapper/Rewards/RewardImages_Labyrinth/_28_FrankenTwin0

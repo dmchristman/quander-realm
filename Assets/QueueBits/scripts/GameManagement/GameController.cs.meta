@@ -1,0 +1,46 @@
+fileFormatVersion: 2
+guid: be5fdcec6c727c94cb03acde772511d5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - pieceRed: {instanceID: 0}
+  - pieceBlue: {instanceID: 0}
+  - pieceField: {instanceID: 0}
+  - finalColor: {instanceID: 0}
+  - pieceSuperposition: {instanceID: 0}
+  - piece25: {instanceID: 0}
+  - piece50: {instanceID: 0}
+  - piece75: {instanceID: 0}
+  - playerTurnText: {instanceID: 0}
+  - blueTitle: {fileID: 3928999488545140943, guid: ca827983d4596430aa643230760c4d65,
+      type: 3}
+  - redTitle: {fileID: 6178012229886456686, guid: 80b5491a85e6a487fb84f0cac1cbda71,
+      type: 3}
+  - pieceBlue100: {instanceID: 0}
+  - pieceBlue75: {instanceID: 0}
+  - pieceBlue50: {instanceID: 0}
+  - pieceBlue25: {instanceID: 0}
+  - pieceBlue100Text: {instanceID: 0}
+  - pieceBlue75Text: {instanceID: 0}
+  - pieceBlue50Text: {instanceID: 0}
+  - pieceBlue25Text: {instanceID: 0}
+  - pieceCounterText: {fileID: 4589598482384573743, guid: 41bd74ff0c354447188d6ac17fceb905,
+      type: 3}
+  - pieceRed100: {instanceID: 0}
+  - pieceRed75: {instanceID: 0}
+  - pieceRed50: {instanceID: 0}
+  - pieceRed25: {instanceID: 0}
+  - pieceRed100Text: {instanceID: 0}
+  - pieceRed75Text: {instanceID: 0}
+  - pieceRed50Text: {instanceID: 0}
+  - pieceRed25Text: {instanceID: 0}
+  - winningText: {instanceID: 0}
+  - playerTurnObject: {instanceID: 0}
+  - probText: {instanceID: 0}
+  - btnPlayAgain: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

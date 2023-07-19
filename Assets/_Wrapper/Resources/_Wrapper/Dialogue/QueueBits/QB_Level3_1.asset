@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Level3
   num: 1
-  text: Nice! If we keep winning at this rate, we'll get Tangle's qubits back in
-    no time!
-  speaker: 1
-  speakerExpression: 0
-  listener: 0
-  listenerExpression: 0
+  text: 'Wow, you two are really doing well. But let''s see how you do with your
+    first quantum twist: Superposition Tokens!!!'
+  speaker: 3
+  speakerExpression: 1
+  listener: 1
+  listenerExpression: 1
   contextImagePath: 

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Level13
   num: 1
-  text: I have good news and bad news
+  text: I have good news and bad news...
   speaker: 1
   speakerExpression: 0
-  listener: 0
+  listener: 2
   listenerExpression: 0
   contextImagePath: 

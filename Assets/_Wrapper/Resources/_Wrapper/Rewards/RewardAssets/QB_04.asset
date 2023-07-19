@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: QB_04
   m_EditorClassIdentifier: 
   game: 3
-  level: 8
+  level: 13
   rewardID: QB_04
   cardType: 0
   title: Byte

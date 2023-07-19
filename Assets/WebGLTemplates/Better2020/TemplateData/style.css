@@ -50,19 +50,19 @@ body {
     height: 24px;
     margin: 10px 20px 20px 10px;
     text-align: left;
-    border: 1px solid white;
+    border: 1px solid rgba(40, 32, 50, 0.26);
     padding: 2px;
 }
 #unity-progress-bar-full {
     width: 0%;
     height: 100%;
-    background: white;
+    background: rgb(40, 32, 50);
 }
 .light #unity-progress-bar-empty {
-    border-color: black;
+    border-color: rgba(40, 32, 50, 0.26);
 }
 .light #unity-progress-bar-full {
-    background: black;
+    background: rgb(40, 32, 50);
 }
 
 #unity-fullscreen-button {

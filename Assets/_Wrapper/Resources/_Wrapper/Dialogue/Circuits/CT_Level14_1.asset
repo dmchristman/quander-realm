@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: CT_Level14
   num: 1
-  text: "You\u2019re doing awesome! Ready for something a bit harder?"
+  text: "You may have noticed there\u2019s multiple rows of gates. There are kitty
+    boxes that can connect the rows."
   speaker: 2
-  speakerExpression: 1
-  listener: 0
+  speakerExpression: 0
+  listener: 1
   listenerExpression: 0
   contextImagePath: 

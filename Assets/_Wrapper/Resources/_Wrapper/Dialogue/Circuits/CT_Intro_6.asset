@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: CT_Intro
   num: 6
-  text: "That\u2019d be great, but each door has crazier and crazier quantum locks
-    \u2013 think you can handle it?"
-  speaker: 2
+  text: 'How do I do that? '
+  speaker: 1
   speakerExpression: 0
-  listener: 1
+  listener: 2
   listenerExpression: 0
   contextImagePath: 

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: QB_03
   m_EditorClassIdentifier: 
   game: 3
-  level: 6
+  level: 5
   rewardID: QB_03
   cardType: 0
   title: DeeCee Ratton

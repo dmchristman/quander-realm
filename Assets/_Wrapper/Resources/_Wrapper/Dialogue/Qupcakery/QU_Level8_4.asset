@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QU_Level8
   num: 4
-  text: If you have a chocolate qupcake on top, then the qupcake on the bottom belt
+  text: If you have a chocolate qupcake on the top belt, then the qupcake just below
     will change flavors.
   speaker: 9
   speakerExpression: 0
   listener: 0
   listenerExpression: 0
-  contextImagePath: 
+  contextImagePath: Qupcakery/ContextImages/Qupcakery_line15_contextimage

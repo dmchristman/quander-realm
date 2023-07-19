@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using System;
 
 namespace Wrapper
 {
@@ -16,6 +17,17 @@ namespace Wrapper
 
         public override void OnPointerClick(PointerEventData eventData)
         {
+            // if clicking reward card, then save card info
+            if (eventData.pointerCurrentRaycast.gameObject.name == "Hitbox") {
+                // Debug.Log(eventData.pointerPress);
+                Reward currCard = eventData.pointerPress.GetComponent<Reward>();
+
+                RewardResearchData.Instance.currentCard = currCard.titleFront.text; //name of card
+                RewardResearchData.Instance.timeClicked = DateTime.Now.ToString("HH:mm:ss tt"); //when they clicked it
+                RewardResearchData.Instance.displayType = currCard.displayType.ToString(); //InJournal=select new, Featured=flip
+                RewardSave.Instance.SaveRewardResearchData();
+            }
+
             base.OnPointerClick(eventData);
         }
 

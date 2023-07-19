@@ -15,8 +15,9 @@ namespace Wrapper
         [Header("Front")]
         [SerializeField] private TextMeshProUGUI cardTypeTextFront;
         [SerializeField] private Image cardTypeColorFront;
-        [SerializeField] private TextMeshProUGUI titleFront;
         [SerializeField] private TextMeshProUGUI flavorText;
+        [SerializeField] public TextMeshProUGUI titleFront;
+        // [SerializeField] private TextMeshProUGUI titleFront;
         [SerializeField] private Image image;
 
         [Header("Back")]
@@ -26,7 +27,8 @@ namespace Wrapper
         [SerializeField] private TextMeshProUGUI backText;
 
         private string id;
-        private DisplayType displayType;
+        public DisplayType displayType;
+        // private DisplayType displayType;
         private const string stateDisabled = "Disabled";
         private const string stateSelected = "Selected";
         private const string triggerFlip = "Flip";

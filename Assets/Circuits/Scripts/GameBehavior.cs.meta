@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e0e98f582106a4261ba2049b6f417169
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - textbox: {instanceID: 0}
+  - gatesObject: {instanceID: 0}
+  - canvasObject: {instanceID: 0}
+  - camera: {instanceID: 0}
+  - sparkPrefab: {fileID: 4879603963366128027, guid: d9f92bc8ed886477589853d418ef1f4b, type: 3}
+  - linePrefab: {instanceID: 0}
+  - linesTransform: {instanceID: 0}
+  executionOrder: -20
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

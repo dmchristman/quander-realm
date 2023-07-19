@@ -10,7 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 725048d17087f554b9671009e724c4a1, type: 3}
-  m_Name: Qupcakes
+  m_Name: Qupcakery
   m_EditorClassIdentifier: 
-  StartScene: Qupcakes
-  name: Qupcakes
+  StartScene: QU_QupcakesStartScene
+  name: QupcakesStartScene
+  gameValue: 4

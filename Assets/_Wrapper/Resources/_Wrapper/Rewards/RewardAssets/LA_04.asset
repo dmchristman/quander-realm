@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: LA_04
   m_EditorClassIdentifier: 
   game: 2
-  level: 4
+  level: 14
   rewardID: LA_04
   cardType: 0
   title: Ken
   backText: 'Name: Ken
 
     Role: Adventurous security guard of the regional blood
-    bank, Frank''s mischievous younger twin brother
+    bank, Fran''s mischievous younger twin brother
 
-    Hobbies: Unsynchronized
-    swimming and tandem bicycling
+    Hobbies: Unsynchronized swimming
+    and tandem bicycling
 
     Favorite games: Sawsee, seek-and-hide
 

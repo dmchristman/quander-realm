@@ -16,7 +16,7 @@ MonoBehaviour:
   num: 4
   text: Yes let's do it! Now I will surely win the next one.
   speaker: 3
-  speakerExpression: 0
+  speakerExpression: 1
   listener: 2
-  listenerExpression: 0
-  contextImagePath: 
+  listenerExpression: 1
+  contextImagePath: QueueBits/ContextImages/Dialogue6-Measure2

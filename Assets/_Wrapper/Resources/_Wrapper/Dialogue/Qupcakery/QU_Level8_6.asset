@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QU_Level8
   num: 6
-  text: Got it? Maybe trying it out will help you learn. Here we go!
-  speaker: 9
-  speakerExpression: 0
-  listener: 0
+  text: 'Got it, let''s try it out. '
+  speaker: 1
+  speakerExpression: 1
+  listener: 9
   listenerExpression: 0
   contextImagePath: 

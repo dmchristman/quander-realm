@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QU_Level1
   num: 4
-  text: Oops! Sometimes I mess up the order so the qupcake box I pack won't match
-    the customer order...
+  text: 'Place the gadget on the belt so the qupcake passes through it. Check it
+    out! The gadget changes the qupcake flavor. '
   speaker: 9
   speakerExpression: 0
   listener: 0

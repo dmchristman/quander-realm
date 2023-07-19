@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Level3
   num: 2
-  text: No fair, I won't let you and Tangle keep beating me. It's time to switch
-    things up. I'm going to make this next level harder
-  speaker: 3
+  text: Superposition? What's that?
+  speaker: 1
   speakerExpression: 0
-  listener: 1
+  listener: 3
   listenerExpression: 0
   contextImagePath: 

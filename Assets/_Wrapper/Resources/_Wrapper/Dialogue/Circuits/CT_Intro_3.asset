@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: CT_Intro
   num: 3
-  text: Huh? What does that mean?
-  speaker: 1
+  text: "That\u2019d be great. Each door has a quantum lock and you need to solve
+    a puzzle to get it to open. "
+  speaker: 2
   speakerExpression: 0
-  listener: 2
-  listenerExpression: 2
+  listener: 1
+  listenerExpression: 0
   contextImagePath: 

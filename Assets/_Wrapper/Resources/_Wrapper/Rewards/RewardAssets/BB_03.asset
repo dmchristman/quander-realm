@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BB_03
   m_EditorClassIdentifier: 
   game: 0
-  level: 5
+  level: 11
   rewardID: BB_03
   cardType: 0
   title: Wane
@@ -21,4 +21,4 @@ MonoBehaviour:
     and leading Molly Cule (in bat form) on a hunt\nFavorite toys: Anything in a
     quantum computer  \nBirthmonth: January (on the Wolf Moon)"
   flavorText: I'm not scared... it's just hard to see
-  imagePath: _Wrapper/Rewards/RewardImages_BlackBox/RewardImage_BlackBox_Placeholder01
+  imagePath: _Wrapper/Rewards/RewardImages_BlackBox/_20_Wane

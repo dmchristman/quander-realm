@@ -85,6 +85,8 @@
         }).then((unityInstance) => {
           GameInstance = unityInstance;
           loadingCover.style.display = "none";
+          var scaling = new canvasScaler(960, 600, "unity-canvas");
+			    scaling.showElement();
           if (canFullscreen) {
             if (!hideFullScreenButton) {
               fullscreenButton.style.display = "";
@@ -107,6 +109,7 @@
       var JSLoadData
     </script>
     <script type="module" src="fbBridge.js"></script>
+    <script src="canvasScaler.js"></script>
 
   </body>
 </html>

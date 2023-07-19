@@ -2,6 +2,7 @@ using BeauRoutine;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using BeauRoutine;
 
 namespace Wrapper
 {
@@ -13,6 +14,9 @@ namespace Wrapper
         private const int dialogueViewLayerIndex = 1;
         private DialogueSequence currentSequence = null;
         private Dictionary<string, DialogueSequence> dialogueDictionary;
+        Routine delayInteraction;
+        [SerializeField]
+        float delayTime = 1F;
 
         #region Unity Functions
 
@@ -74,13 +78,22 @@ namespace Wrapper
 
         private void UpdateDialogueNumber(int step)
         {
-            Events.UpdateDialogueView?.Invoke(currentSequence.GetLine(step), step);
+            if (delayInteraction.Exists()) return;
+
+            if (step == 0) Events.CloseDialogueView?.Invoke();
+            else Events.UpdateDialogueView?.Invoke(currentSequence.GetLine(step), step);
+            delayInteraction.Replace(DelayInteraction());
         }
 
         private void PrintSequence(string sequenceID)
         {
             foreach (Dialogue node in dialogueDictionary[sequenceID].Nodes)
                 Debug.LogFormat("Num: {0} Text: {1}", node.num, node.text);
+        }
+
+        System.Collections.IEnumerator DelayInteraction()
+        {
+            yield return delayTime;
         }
     } 
 }

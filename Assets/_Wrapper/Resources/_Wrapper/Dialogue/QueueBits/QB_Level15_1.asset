@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Level15
   num: 1
-  text: We made it! We're on the final round of the game. If we win this one, Tangle
-    will get his qubit array back and we can all celebrate!
+  text: We made it! We're on the final round of the game. If we win this one, you
+    will get your quantum computer storage back and we can all celebrate!
   speaker: 1
   speakerExpression: 0
-  listener: 0
-  listenerExpression: 0
+  listener: 2
+  listenerExpression: 1
   contextImagePath: 

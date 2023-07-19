@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Level8
   num: 4
-  text: Okay okay, go take a nap. We'll win for you. Click next to play Level 8
+  text: Okay, okay, go take a nap. I'll play without you.
   speaker: 1
   speakerExpression: 0
   listener: 0

@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QU_Level13
   num: 2
-  text: "This is the mystery-inverter  \u2013 Z-Gate!"
+  text: This gadget creates mystery boxes. After passing through it, a customer has
+    a 50-50 chance of getting either vanilla or chocolate!
   speaker: 9
   speakerExpression: 0
   listener: 0
   listenerExpression: 0
-  contextImagePath: 
+  contextImagePath: Qupcakery/ContextImages/Qupcakery_line24_contextimage

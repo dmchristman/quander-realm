@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: CT_Level22
   num: 2
-  text: This box is called a Swap-Gate!
+  text: "And this set of 5 gates turns into just 1 SWAP Gate ! Isn\u2019t that crazy?!?!"
   speaker: 2
   speakerExpression: 0
-  listener: 0
+  listener: 1
   listenerExpression: 0
-  contextImagePath: 
+  contextImagePath: Circuits/ContextImages/HHCXHH

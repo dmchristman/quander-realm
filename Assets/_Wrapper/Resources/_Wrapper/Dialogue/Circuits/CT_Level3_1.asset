@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: CT_Level3
   num: 1
-  text: "Great job! You\u2019re getting the hang of it!"
+  text: 'Wow, you opened both doors! Great! This kitty box with an "X" on it is a
+    NOT gate. I mean, it is still a gate even though I call it NOT gate. '
   speaker: 2
   speakerExpression: 1
-  listener: 0
+  listener: 1
   listenerExpression: 0
   contextImagePath: 

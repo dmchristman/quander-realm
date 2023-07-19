@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Level6
   num: 1
-  text: Nice job! We finished Level 5 as well! Oh Tangle you're awake, but why do
-    you look so upset?
+  text: Oh Tangle you're awake, but why do you look so upset?
   speaker: 1
-  speakerExpression: 0
+  speakerExpression: 1
   listener: 2
-  listenerExpression: 0
+  listenerExpression: 2
   contextImagePath: 

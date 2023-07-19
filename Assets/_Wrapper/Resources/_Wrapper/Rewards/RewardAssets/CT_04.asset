@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CT_04
   m_EditorClassIdentifier: 
   game: 1
-  level: 9
+  level: 4
   rewardID: CT_04
   cardType: 0
   title: Zombie Boss

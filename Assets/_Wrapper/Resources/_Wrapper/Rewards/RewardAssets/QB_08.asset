@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: QB_08
   m_EditorClassIdentifier: 
   game: 3
-  level: 15
+  level: 11
   rewardID: QB_08
   cardType: 3
   title: 'Measurement '

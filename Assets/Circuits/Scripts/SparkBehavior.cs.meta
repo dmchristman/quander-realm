@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 01df5353b3fc04bc99c7c079f87967b7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - sparkTexture: {fileID: 2800000, guid: 8e0eb83374dec4fe59bd430dc1e3bed9, type: 3}
+  - render: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

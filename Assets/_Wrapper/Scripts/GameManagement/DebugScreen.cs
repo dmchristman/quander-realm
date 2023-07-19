@@ -29,14 +29,22 @@ public class DebugScreen : MonoBehaviour
     public TextMeshProUGUI consoleLog;
 
     private Option currentOption;
+
+    [SerializeField, Header("Debug Tools"), Tooltip("Enabling/disabling during runtime will not function properly")]
+    bool debugEnabled = true;
+    public bool DebugEnabled { get => debugEnabled; }
     
     private void Awake()
     {
 #if PRODUCTION_FB
         gameObject.SetActive(false);
 #endif
-        SetupOptions();
-        submitButton.onClick.AddListener(SubmitCommand);
+        if (debugEnabled)
+        {
+            SetupOptions();
+            submitButton.onClick.AddListener(SubmitCommand);
+        }
+        else gameObject.SetActive(false);
     }
 
     private void OnEnable()

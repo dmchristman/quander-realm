@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725048d17087f554b9671009e724c4a1, type: 3}
   m_Name: QueueBits
   m_EditorClassIdentifier: 
-  StartScene: QueueBits
+  StartScene: QB_Home
   name: QueueBits
+  gameValue: 3

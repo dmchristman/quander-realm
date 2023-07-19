@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QU_Level1
   num: 1
-  text: I'm so happy you are here! Help me deliver to my customers their favorite
-    qupcakes!
+  text: ' I make the qupcakes and put them into boxes. Then, you go ahead and click
+    the play button to deliver them to the customers on the fancy conveyor belts. '
   speaker: 9
   speakerExpression: 0
   listener: 0
   listenerExpression: 0
-  contextImagePath: 
+  contextImagePath: Qupcakery/ContextImages/Qupcakery_line7_contextimage

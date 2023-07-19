@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LA_05
   m_EditorClassIdentifier: 
   game: 2
-  level: 8
+  level: 9
   rewardID: LA_05
   cardType: 2
   title: Maze

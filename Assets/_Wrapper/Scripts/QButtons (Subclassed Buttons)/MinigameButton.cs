@@ -10,7 +10,7 @@ namespace Wrapper
         {
             base.OnPointerClick(eventData);
 
-            Events.OpenMinigame?.Invoke(minigame);
+            Events.ScreenFadeMidAction?.Invoke(() => Events.OpenMinigame?.Invoke(minigame), 0.2F);
         }
     }
 }

@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Level8
   num: 1
-  text: Hahaha! Even Byte's twist can't stop us! Do you think you're good enough
-    now to win on your own Molly?
+  text: 'Hahaha! Even Byte''s twist can''t stop us! '
   speaker: 2
-  speakerExpression: 0
+  speakerExpression: 1
   listener: 1
-  listenerExpression: 0
+  listenerExpression: 1
   contextImagePath: 

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f2955432a9503241846848463699bf1, type: 3}
+  m_Name: QU_Level23_2
+  m_EditorClassIdentifier: 
+  sequenceID: QU_Level23
+  num: 2
+  text: 'Now two customers can ask for a pair of mystery boxes. Each box still has
+    a 50-50 chance of chocolate or vanilla, but they are linked. Once the first box
+    is opened, the second box becomes the same flavor! '
+  speaker: 9
+  speakerExpression: 0
+  listener: 1
+  listenerExpression: 0
+  contextImagePath: Qupcakery/ContextImages/Qupcakery_line31_contextimage

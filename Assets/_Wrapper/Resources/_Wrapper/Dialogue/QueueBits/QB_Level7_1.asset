@@ -14,9 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Level7
   num: 1
-  text: Do you understand how the game works? Great! The next one will be similar,
-    except there'll be 50% chips again.
-  speaker: 1
+  text: Now that you are getting the hang of this, there'll be 50% tokens again.
+  speaker: 3
   speakerExpression: 0
   listener: 0
   listenerExpression: 0

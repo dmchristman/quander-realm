@@ -19,6 +19,6 @@ MonoBehaviour:
   title: Dilution Refrigerator
   backText: "-Used to cool superconducting qubits down to super low temperatures
     \n-Necessary in order for some types of quantum computers to operate\n-Made from
-    gold and copper and filled with liquid helium\n-Kind of looks like a chandalier"
+    gold and copper and filled with liquid helium\n-Kind of looks like a chandelier"
   flavorText: Keeps things really cold! Like 0.01 K above absolute zero!
   imagePath: _Wrapper/Rewards/RewardImages_Labyrinth/_27_DilutionRefrigerator

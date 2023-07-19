@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Intro
   num: 1
-  text: Molly! Oh I'm so glad I ran into you. Help me please!
+  text: Molly! Oh I'm so glad I ran into you. Byte didn't cause the explosion, but
+    he won't give me this 2D part of my quantum computer! It's for storing some of
+    my quantum information.
   speaker: 2
-  speakerExpression: 0
+  speakerExpression: 2
   listener: 1
   listenerExpression: 0
   contextImagePath: 

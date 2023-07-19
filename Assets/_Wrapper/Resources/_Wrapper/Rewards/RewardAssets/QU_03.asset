@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: QU_03
   m_EditorClassIdentifier: 
   game: 4
-  level: 1
+  level: 23
   rewardID: QU_03
   cardType: 0
   title: Molly Cule
-  backText: "Name: Molly Qule\nRole: Friendly neighborhood vampire, cat lover, and
+  backText: "Name: Molly Cule\nRole: Friendly neighborhood vampire, cat lover, and
     caretaker of Tangle\nHobbies: Eating qupcakes, creating video games, reading
     detective novels\nFavorite fruits: Neck-tarines, blood oranges\nFavorite subject:
     A-count-ing \nBirthday: October 31 "

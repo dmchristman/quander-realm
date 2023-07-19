@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LA_08
   m_EditorClassIdentifier: 
   game: 2
-  level: 14
+  level: 3
   rewardID: LA_08
   cardType: 3
   title: Correlation

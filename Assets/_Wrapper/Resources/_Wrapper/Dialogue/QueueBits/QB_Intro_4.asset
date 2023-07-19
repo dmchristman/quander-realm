@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Intro
   num: 4
-  text: Oh I should've known you guys are fighting again. I'm sure there must be
-    some way we can get it back
+  text: Together we will get your computer parts back! Also, Byte is not so bad once
+    you get to know him.
   speaker: 1
-  speakerExpression: 0
+  speakerExpression: 1
   listener: 2
-  listenerExpression: 0
+  listenerExpression: 1
   contextImagePath: 

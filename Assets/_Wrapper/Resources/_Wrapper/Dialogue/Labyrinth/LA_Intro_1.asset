@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: LA_Intro
   num: 1
-  text: "Welcome to the Labyrinth! We\u2019re the Franken Twins!"
-  speaker: 8
-  speakerExpression: 0
-  listener: 1
+  text: Hi Franken Twins! Did you happen to find any of Tangle's quantum computer
+    parts?
+  speaker: 1
+  speakerExpression: 1
+  listener: 8
   listenerExpression: 1
   contextImagePath: 

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: CT_Level22
   num: 1
-  text: "Okay, whew, we\u2019re almost done! Just one more substitution!"
+  text: Okay, whew, almost done! Now, this new one is a SWAP gate!
   speaker: 2
   speakerExpression: 1
-  listener: 0
+  listener: 1
   listenerExpression: 0
-  contextImagePath: 
+  contextImagePath: Circuits/ContextImages/SWAP

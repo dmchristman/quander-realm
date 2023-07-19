@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79c3354e34a99b643b59617e35073b07, type: 3}
+  m_Name: Credits
+  m_EditorClassIdentifier: 
+  entries:
+  - name: University of Chicago
+    title: 
+  - name: Diana Franklin
+    title: Project Leader / Lead Game Designer
+  - name: David Gonzalez-Maldonado
+    title: Lead Game Developer & Researcher
+  - name: Tianle Liu
+    title: Lead Game Developer & Researcher
+  - name: Grace Williams
+    title: Lead Game Developer & Researcher
+  - name: Irina Lee
+    title: Lead Game Developer
+  - name: Jonathan Liu
+    title: Lead Game Developer & Researcher
+  - name: Liuhao Wu
+    title: Asst. Game Developer
+  - name: Shivani Puli
+    title: Asst. Game Developer
+  - name: University of California, Santa Barbara
+    title: 
+  - name: Danielle Harlow
+    title: Project Leader / Lead Educational Developer
+  - name: Devon Christman
+    title: Lead Educational Developer & Researcher
+  - name: Liliana Garcia
+    title: Educational Developer & Researcher
+  - name: Kaylee Laub
+    title: Educational Developer & Researcher
+  - name: Matthew Bennett
+    title: Educational Developer
+  - name: Charlene Patenaude
+    title: Asst. Researcher
+  - name: Edwin Yee
+    title: Asst. Researcher
+  - name: William Huang
+    title: Asst. Researcher
+  - name: Raina Kakani
+    title: Asst. Researcher
+  - name: Collin Lejano
+    title: Asst. Researcher
+  - name: University of Illinois, Urbana-Champaign
+    title: 
+  - name: Emily Edwards
+    title: Lead Aesthetic Coordinator
+  - name: Filament Games
+    title: 
+  - name: Dan Norton
+    title: Account Manager
+  - name: Kenny Green
+    title: Lead Producer
+  - name: Virginia Wilkerson
+    title: Lead Game Designer
+  - name: Vian Nguyen
+    title: Lead Game Designer
+  - name: Megan Tran
+    title: Lead Visual Interaction Designer
+  - name: Miah Dawes
+    title: Visual Interaction Designer
+  - name: Stephen Glatfelter
+    title: Visual Interaction Designer
+  - name: Srivathsan Prakash
+    title: Lead Game Engineer
+  - name: Leah Blasczyk
+    title: Game Engineer
+  - name: Chenya Cheng
+    title: Lead Game Artist
+  - name: Austin Smythe
+    title: Lead Quality Assurance
+  - name: Georgia Adkins
+    title: Quality Assurance
+  - name: Brian Czech
+    title: Quality Assurance
+  - name: Alex Avalon
+    title: Quality Assurance
+  - name: Hayden Smith
+    title: Quality Assurance
+  - name: Josh Bartels
+    title: Sound & Video Engineer

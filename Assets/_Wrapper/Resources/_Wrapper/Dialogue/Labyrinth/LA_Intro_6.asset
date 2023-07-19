@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: LA_Intro
   num: 6
-  text: "Why\u2019s that?"
-  speaker: 1
+  text: ... we can't move on our own.
+  speaker: 6
   speakerExpression: 0
-  listener: 8
-  listenerExpression: 1
+  listener: 7
+  listenerExpression: 0
   contextImagePath: 

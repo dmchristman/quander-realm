@@ -1,0 +1,550 @@
+fileFormatVersion: 2
+guid: 0f83e3628525e453e9bb567e4644ea14
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Franken0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 195
+        width: 122.375
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -44.1875, y: -74.5}
+        - {x: -46.1875, y: 69.5}
+        - {x: 37.8125, y: 73.5}
+        - {x: 37.8125, y: -72.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78652298182954dc388cb2303240a4d2
+      internalID: -804019202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franken0_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 195
+        width: 122.375
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -46.1875, y: -64.5}
+        - {x: -44.1875, y: 76.5}
+        - {x: 36.8125, y: 77.5}
+        - {x: 34.8125, y: -59.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b02cd210173a46dd863fe1438a37c77
+      internalID: -231279409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franken0_2
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 195
+        width: 122.375
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45.1875, y: -65.5}
+        - {x: -48.1875, y: 76.5}
+        - {x: 36.8125, y: 77.5}
+        - {x: 33.8125, y: -67.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51291d2680584c318142b51783e176f
+      internalID: 91137933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franken0_3
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 195
+        width: 122.375
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -41.1875, y: -63.5}
+        - {x: -41.1875, y: 82.5}
+        - {x: 39.8125, y: 84.5}
+        - {x: 38.8125, y: -63.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: abee3424a4b9248b2ae341d906d3e21f
+      internalID: -2126293166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franken0_4
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 195
+        width: 122.375
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -38.1875, y: -67.5}
+        - {x: -38.1875, y: 86.5}
+        - {x: 36.8125, y: 86.5}
+        - {x: 36.8125, y: -67.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf21a2668cb442f4a468e6fdeb415c1
+      internalID: -906972491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franken0_5
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 195
+        width: 122.375
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -39.1875, y: -75.5}
+        - {x: -39.1875, y: 84.5}
+        - {x: 43.8125, y: 84.5}
+        - {x: 43.8125, y: -75.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8b1963ce5c441a1997a958d2a5293e
+      internalID: -642630754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franken0_6
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 195
+        width: 122.375
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -33.1875, y: -72.5}
+        - {x: -33.1875, y: 84.5}
+        - {x: 44.8125, y: 84.5}
+        - {x: 44.8125, y: -72.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e523209770e0343039509c6d90154301
+      internalID: 852585551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franken0_7
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 195
+        width: 122.375
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -31.1875, y: -67.5}
+        - {x: -31.1875, y: 81.5}
+        - {x: 47.8125, y: 81.5}
+        - {x: 47.8125, y: -67.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0048c777cf09945eaa0b24517eaf4b24
+      internalID: 56326857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franken0_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 122
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -51, y: -80.5}
+        - {x: -51, y: 76.5}
+        - {x: 32, y: 76.5}
+        - {x: 32, y: -80.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6d7438eff644f38ae29d9da1cce0f7
+      internalID: -1954700248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franken0_9
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 6
+        width: 122
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: -78.5}
+        - {x: -45, y: 76.5}
+        - {x: 38, y: 76.5}
+        - {x: 38, y: -78.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70ffe3a8cc644206a097cbb0cd0c2d3
+      internalID: -1707666748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franken0_10
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 6
+        width: 122
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -46, y: -78.5}
+        - {x: -46, y: 75.5}
+        - {x: 35, y: 75.5}
+        - {x: 35, y: -78.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f657cdf71bec246dea89e337b3a670a3
+      internalID: -1742711089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franken0_11
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 6
+        width: 122
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -41, y: -72.5}
+        - {x: -41, y: 76.5}
+        - {x: 35, y: 76.5}
+        - {x: 35, y: -72.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e338876953988465a8ffc51f9a67125c
+      internalID: -564350224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franken0_12
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 6
+        width: 122
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -40, y: -80.5}
+        - {x: -40, y: 78.5}
+        - {x: 38, y: 78.5}
+        - {x: 38, y: -80.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8d30d823f574748896e4a4154e053c
+      internalID: -1053979627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franken0_13
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 6
+        width: 122
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -47, y: -80.5}
+        - {x: -47, y: 76.5}
+        - {x: 44, y: 76.5}
+        - {x: 44, y: -80.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c6752ceeb2c4768ac5137806577e8d
+      internalID: -867525845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franken0_14
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 6
+        width: 122
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -41, y: -79.5}
+        - {x: -41, y: 72.5}
+        - {x: 43, y: 72.5}
+        - {x: 43, y: -79.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9b6bd6f426d41ba83c948e971da6ab
+      internalID: -1105372362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franken0_15
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 6
+        width: 122
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -42, y: -73.5}
+        - {x: -42, y: 73.5}
+        - {x: 34, y: 73.5}
+        - {x: 34, y: -73.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09de2964ddd584a00b497ba54c60a914
+      internalID: 249741057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Franken0_10: -1742711089
+      Franken0_11: -564350224
+      Franken0_12: -1053979627
+      Franken0_6: 852585551
+      Franken0_8: -1954700248
+      Franken0_14: -1105372362
+      Franken0_2: 91137933
+      Franken0_0: -804019202
+      Franken0_5: -642630754
+      Franken0_13: -867525845
+      Franken0_1: -231279409
+      Franken0_15: 249741057
+      Franken0_9: -1707666748
+      Franken0_3: -2126293166
+      Franken0_4: -906972491
+      Franken0_7: 56326857
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

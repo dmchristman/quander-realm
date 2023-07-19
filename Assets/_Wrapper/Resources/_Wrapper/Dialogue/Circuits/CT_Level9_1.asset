@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: CT_Level9
   num: 1
-  text: Oh, one more thing you might find helpful!
+  text: Wowzers! You're getting close to a computer part I need! Keep going!
   speaker: 2
   speakerExpression: 0
-  listener: 0
+  listener: 1
   listenerExpression: 0
   contextImagePath: 

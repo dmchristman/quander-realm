@@ -37,6 +37,7 @@ namespace Wrapper
         private GameObject featuredCardGO;
         private string featuredCardID;
         private JournalPage currentPage;
+        Routine pageFlip;
 
         #endregion
 
@@ -86,6 +87,7 @@ namespace Wrapper
             }
 
             animator.SetBool(featuredCardParam, false);
+            Events.PlaySound?.Invoke("W_CardOut");
         }
 
         private IEnumerator DisplayFeaturedCard()
@@ -97,7 +99,7 @@ namespace Wrapper
             RewardAsset rAsset = Resources.Load<RewardAsset>(Path.Combine(GameManager.Instance.rewardsPath, featuredCardID));
             if (rAsset == null)
             {
-                Debug.LogErrorFormat("Could not find card {0} to feature", featuredCardID);
+                Debug.LogWarningFormat("Could not find card {0} to feature", featuredCardID);
                 yield break;
             }
 
@@ -105,6 +107,7 @@ namespace Wrapper
             yield return Routine.WaitCondition(() => featuredCardGO != null);
 
             animator.SetBool(featuredCardParam, true);
+            Events.PlaySound?.Invoke("W_CardIn");
             Routine.Start(featuredCardGO.GetComponent<Reward>().UpdateAnimationState());
         }
 
@@ -127,7 +130,7 @@ namespace Wrapper
 
         private void SwitchCardsOnPage(JournalPage newPage)
         {
-            Routine.Start(SwitchCardsRoutine(newPage));
+            pageFlip.Replace(SwitchCardsRoutine(newPage));
         }
 
         /// <summary>
@@ -137,7 +140,7 @@ namespace Wrapper
         {
             Events.PlaySound?.Invoke("PageFlip");
             animator.SetTrigger(GetPageFlipTrigger(newPage));
-            yield return animator.WaitToCompleteAnimation(3);
+            yield return 0.1F;
 
             foreach (Transform rewardTransform in GetVisibleCards())
                 rewardTransform.SetParent(hiddenRewardsMount.transform);
@@ -147,9 +150,10 @@ namespace Wrapper
                 rewardGO.transform.SetParent(visibleRewardsMount.transform);
                 Routine.Start(rewardGO.GetComponent<Reward>().UpdateAnimationState());
             }
+            yield return animator.WaitToCompleteAnimation(3);
 
             Events.UpdateTab?.Invoke(newPage);
-            animator.SetTrigger(GetPageFlipTrigger(newPage));
+            //animator.SetTrigger(GetPageFlipTrigger(newPage));
             currentPage = newPage;
             UpdateNavButtons();
         }

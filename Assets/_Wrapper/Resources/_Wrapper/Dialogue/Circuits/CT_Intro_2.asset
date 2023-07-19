@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: CT_Intro
   num: 2
-  text: Not well, Molly!!! A quantum computer explosion just happened in my basement
-    lair and reset the quantum locks to all my doors!
-  speaker: 2
-  speakerExpression: 2
-  listener: 1
+  text: No worries, I can open them for you!
+  speaker: 1
+  speakerExpression: 1
+  listener: 2
   listenerExpression: 2
   contextImagePath: 

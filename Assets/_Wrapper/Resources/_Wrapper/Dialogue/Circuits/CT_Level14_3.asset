@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: CT_Level14
   num: 3
-  text: "From now on, you\u2019ll be seeing this box, which is Controlled-Not-Gate,
-    or CNOT, and\u2026"
+  text: ' here''s another-- it''s a Controlled-Z-Gate, or CZ. '
   speaker: 2
   speakerExpression: 0
-  listener: 0
+  listener: 1
   listenerExpression: 0
-  contextImagePath: 
+  contextImagePath: Circuits/ContextImages/CZ

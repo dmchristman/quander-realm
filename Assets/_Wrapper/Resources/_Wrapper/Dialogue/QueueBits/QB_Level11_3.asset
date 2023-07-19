@@ -16,8 +16,8 @@ MonoBehaviour:
   num: 3
   text: After the whole board fills up, we can each take turns picking which token
     we want revealed until one of us gets four in a row. How does that sound?
-  speaker: 2
-  speakerExpression: 0
+  speaker: 1
+  speakerExpression: 1
   listener: 3
   listenerExpression: 0
-  contextImagePath: 
+  contextImagePath: QueueBits/ContextImages/Dialogue6-Measure2

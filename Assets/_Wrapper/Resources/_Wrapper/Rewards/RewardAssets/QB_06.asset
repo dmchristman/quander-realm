@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: QB_06
   m_EditorClassIdentifier: 
   game: 3
-  level: 11
+  level: 9
   rewardID: QB_06
   cardType: 2
-  title: Probabilistic Token
+  title: Superposition Token
   backText: "-Game tokens represents qubits (quantum bits)\n-A token with multiple
     colors means the token has a chance of being one color or the other \n-Qubits
     can be in a combination of states (colors). This is called superposition"

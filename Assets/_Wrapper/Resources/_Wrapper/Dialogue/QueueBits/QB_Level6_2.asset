@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Level6
   num: 2
-  text: Molly! It's Byte. He said he was going to change up the game againnnn
+  text: Molly! It's Byte. He said he was going to change up the game againnnn.
   speaker: 2
-  speakerExpression: 0
+  speakerExpression: 2
   listener: 1
   listenerExpression: 0
   contextImagePath: 

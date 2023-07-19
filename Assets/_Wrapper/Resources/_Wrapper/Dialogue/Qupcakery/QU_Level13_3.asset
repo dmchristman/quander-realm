@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QU_Level13
   num: 3
-  text: " It changes a mystery box from one type to the other, and doesn\u2019t do
-    anything to normal boxes. Super cool, right? Give it a try!"
+  text: "The customer has to open the box to know which\u2013half the time the qupcake
+    is chocolate, and half the time it\u2019s vanilla!"
   speaker: 9
-  speakerExpression: 0
+  speakerExpression: 1
   listener: 0
   listenerExpression: 0
   contextImagePath: 

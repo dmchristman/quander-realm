@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Level3
   num: 4
-  text: Superposition? What's that?
+  text: 'Uhh I''m still not sure I understand. '
   speaker: 2
-  speakerExpression: 0
+  speakerExpression: 2
   listener: 3
   listenerExpression: 0
   contextImagePath: 

@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: CT_Level14
   num: 2
-  text: "You may have noticed there\u2019s multiple rows of gates. Well, surprise!
-    Gates can interact with multiple rows!!"
+  text: "Here's one that does that. It is called a Controlled-Not-Gate, or CNOT,
+    and\u2026"
   speaker: 2
   speakerExpression: 0
-  listener: 0
+  listener: 1
   listenerExpression: 0
-  contextImagePath: 
+  contextImagePath: Circuits/ContextImages/CNOT

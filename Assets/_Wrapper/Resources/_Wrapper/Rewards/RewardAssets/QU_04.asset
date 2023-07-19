@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: QU_04
   m_EditorClassIdentifier: 
   game: 4
-  level: 23
+  level: 5
   rewardID: QU_04
   cardType: 0
   title: Chef Scatter

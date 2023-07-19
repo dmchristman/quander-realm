@@ -17,6 +17,6 @@ MonoBehaviour:
   text: "\u2026 Haha \u2026 ? No one laughs at my quantum puns."
   speaker: 2
   speakerExpression: 2
-  listener: 0
-  listenerExpression: 0
+  listener: 1
+  listenerExpression: 1
   contextImagePath: 

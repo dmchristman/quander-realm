@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Level6
   num: 3
-  text: It's just not fair! Even with my twist, this game is still to easy for you.
-    I need to step up my game!
+  text: This time, when you drop a token, it won't reveal its color immediately,
+    but will stay as a superposition token until the end of the game.
   speaker: 3
   speakerExpression: 0
   listener: 2
   listenerExpression: 0
-  contextImagePath: 
+  contextImagePath: QueueBits/ContextImages/Dialogue5-Measure1

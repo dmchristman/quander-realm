@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: LA_Intro
   num: 8
-  text: "Do something to one of us\u2026"
+  text: 'it affects the other! '
   speaker: 6
   speakerExpression: 0
   listener: 7

@@ -316,6 +316,7 @@ MonoBehaviour:
   inputField: {fileID: 4518723044794833159}
   submitButton: {fileID: 1718240492515119475}
   consoleLog: {fileID: 9006694178547373412}
+  debugEnabled: 0
 --- !u!1 &4518723045851652952
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,6 +627,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+  audioName: 
 --- !u!1 &4518723046374560493
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,7 +16,7 @@ MonoBehaviour:
   num: 3
   text: "But you already know the drill \u2013 you have this totally under CONTROL\u2026"
   speaker: 2
-  speakerExpression: 0
-  listener: 0
+  speakerExpression: 1
+  listener: 1
   listenerExpression: 0
   contextImagePath: 

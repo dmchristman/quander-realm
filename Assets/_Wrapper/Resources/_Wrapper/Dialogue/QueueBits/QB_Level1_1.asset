@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Level1
   num: 1
-  text: Alright, the first round is just like regular Connect 4 so hopefully we can
-    win!
-  speaker: 2
+  text: We take turns dropping our token into the game board. Whoever gets 4 in a
+    row, column, or diagonal first wins! I'll go easy on you this time!
+  speaker: 3
   speakerExpression: 0
   listener: 1
   listenerExpression: 0
-  contextImagePath: 
+  contextImagePath: QueueBits/ContextImages/Dialogue1-Winnable2

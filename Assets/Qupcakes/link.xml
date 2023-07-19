@@ -1,0 +1,9 @@
+<linker>
+  <assembly fullname="System.Core">
+    <type fullname="System.Linq.Expressions.Interpreter.LightLambda" preserve="all" />
+  </assembly>
+  <assembly fullname="AWSSDK.Core" preserve="all"/>
+  <assembly fullname="AWSSDK.CognitoIdentity" preserve="all"/>
+  <assembly fullname="AWSSDK.Kinesis" preserve="all"/>
+  <assembly fullname="AWSSDK.SecurityToken" preserve="all"/>
+</linker>

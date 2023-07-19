@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: LA_Intro
   num: 5
-  text: "And we\u2019re the only people \u2013 erm, monsters who can get to them."
-  speaker: 6
-  speakerExpression: 0
-  listener: 7
-  listenerExpression: 0
+  text: We'd love to, but
+  speaker: 8
+  speakerExpression: 1
+  listener: 1
+  listenerExpression: 1
   contextImagePath: 

@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Level3
   num: 3
-  text: I know what I'll do! I'll make the tokens into superpositions!
+  text: A superposition means that instead of a token being red OR yellow, it can
+    be red AND yellow!
   speaker: 3
-  speakerExpression: 0
-  listener: 0
+  speakerExpression: 1
+  listener: 2
   listenerExpression: 0
-  contextImagePath: 
+  contextImagePath: QueueBits/ContextImages/Dialogue2-Superposition1

@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Level6
   num: 5
-  text: Well then how will I know if I have won if the tokens stay in superposition?
-  speaker: 2
-  speakerExpression: 0
-  listener: 3
-  listenerExpression: 0
+  text: Whoever gets four in a row first wins. Which will be me! I won't let you
+    win this one too!
+  speaker: 3
+  speakerExpression: 1
+  listener: 2
+  listenerExpression: 2
   contextImagePath: 

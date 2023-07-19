@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QU_Level3
   num: 2
-  text: "This is the flavor-swapper \u2013 SWAP gate! It works by switching the qupcakes
-    on two different conveyor belts! Pretty neat, huh?"
+  text: This is the flavor-swapper! It works by switching the flavors of the qupcakes
+    on two different conveyor belts! Pretty neat, huh?
   speaker: 9
   speakerExpression: 0
   listener: 0
   listenerExpression: 0
-  contextImagePath: 
+  contextImagePath: Qupcakery/ContextImages/Qupcakery_line12_contextimage

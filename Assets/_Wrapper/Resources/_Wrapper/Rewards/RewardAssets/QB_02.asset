@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: QB_02
   m_EditorClassIdentifier: 
   game: 3
-  level: 5
+  level: 8
   rewardID: QB_02
   cardType: 1
   title: Fibers and Wires

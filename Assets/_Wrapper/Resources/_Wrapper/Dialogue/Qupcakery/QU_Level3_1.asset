@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QU_Level3
   num: 1
-  text: "Great work! I think you\u2019re ready for another gadget to help make your
-    job a little easier!"
+  text: Great work! You're ready for the next one!
   speaker: 9
-  speakerExpression: 0
+  speakerExpression: 1
   listener: 0
   listenerExpression: 0
   contextImagePath: 

@@ -97,7 +97,7 @@ namespace Wrapper
             dialogueBody.text = "";
             animator.SetBool("View/On", true);
             SwitchNextButton(false);
-            UpdateView(dialogue);
+            Routine.Start(UpdateViewRoutine(dialogue, default, true));
         }
 
         private void Close()
@@ -108,6 +108,7 @@ namespace Wrapper
 
         private IEnumerator CloseRoutine()
         {
+            yield return ClearNoneCharacters(null, false);
             Events.TogglePreviousButton?.Invoke(false);
             animator.SetBool("View/On", false);
             yield return animator.WaitToCompleteAnimation();
@@ -149,7 +150,7 @@ namespace Wrapper
             Routine.Start(UpdateViewRoutine(dialogue, step));
         }
 
-        private IEnumerator UpdateViewRoutine(Dialogue dialogue, int step = 1)
+        private IEnumerator UpdateViewRoutine(Dialogue dialogue, int step = 1, bool initial = false)
         {
             //todo: rethink closing here
             if (dialogue == null)
@@ -158,7 +159,7 @@ namespace Wrapper
                 yield break;
             }
 
-            yield return ClearNoneCharacters(dialogue);
+            yield return ClearNoneCharacters(dialogue, initial);
             yield return UpdateCharacters(dialogue);
             InitiateDialogueAnimation(dialogue, step);
 
@@ -356,12 +357,12 @@ namespace Wrapper
         {
             if (step > 0)
             {
-                dupePage.text = dialogue.text;
+                SetDupeText(dialogue.text);
                 animator.SetTrigger("DialogueNext");
             }
             else
             {
-                dupePage.text = dialogueBody.text;
+                SetDupeText(dialogueBody.text);
                 tempDialogueText = dialogue.text;
                 animator.SetTrigger("DialoguePrevious");
             }
@@ -375,12 +376,12 @@ namespace Wrapper
         {
             if (step > 0) //Next
             {
-                dialogueBody.text = dupePage.text;
+                SetDialogText(dupePage.text);
                 animator.SetTrigger("DialogueNext");
             }
             else
             {
-                dialogueBody.text = tempDialogueText;
+                SetDialogText(tempDialogueText);
                 animator.SetTrigger("DialoguePrevious");
             }
         }
@@ -414,8 +415,23 @@ namespace Wrapper
             return side;
         }
 
-        private IEnumerator ClearNoneCharacters(Dialogue dialogue)
+        private IEnumerator ClearNoneCharacters(Dialogue dialogue, bool initial)
         {
+            if (dialogue == null)
+            {
+                animator.SetBool("CharacterLeft/On", false);
+                charLeft = Character.None;
+                charNameTextLeft.text = "";
+                animatorCharLeft = null;
+
+                animator.SetBool("CharacterRight/On", false);
+                charRight = Character.None;
+                charNameTextRight.text = "";
+                animatorCharRight = null;
+
+                yield break;
+            }
+
             if (charLeft != dialogue.speaker && charLeft != dialogue.listener && animator.GetBool("CharacterLeft/On"))
             {
                 animator.SetBool("CharacterLeft/On", false);
@@ -432,9 +448,33 @@ namespace Wrapper
                 animatorCharRight = null;
             }
 
-            yield return Routine.Combine(
-                animator.WaitToCompleteAnimation(leftCharAnimLayerIndex),
-                animator.WaitToCompleteAnimation(rightCharAnimLayerIndex));
+            if (initial) yield return null;
+            else 
+                yield return Routine.Combine(
+                    animator.WaitToCompleteAnimation(leftCharAnimLayerIndex),
+                    animator.WaitToCompleteAnimation(rightCharAnimLayerIndex));
+        }
+
+        void SetDupeText(string text)
+        {
+            if (text.Contains("*this part of town*"))
+            {
+                // replace with minigame name
+                var game = Events.GetMinigameTitle.Invoke(Events.GetCurrentGame.Invoke());
+                text = text.Replace("*this part of town*", game);
+            }
+            dupePage.text = text;
+        }
+
+        void SetDialogText(string text)
+        {
+            if (text.Contains("*this part of town*"))
+            {
+                // replace with minigame name
+                var game = Events.GetMinigameTitle.Invoke(Events.GetCurrentGame.Invoke());
+                text = text.Replace("*this part of town*", game);
+            }
+            dialogueBody.text = text;
         }
     }
 }

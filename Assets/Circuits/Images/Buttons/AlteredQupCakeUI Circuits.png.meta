@@ -1,0 +1,373 @@
+fileFormatVersion: 2
+guid: d3dd1406d5ab14793b6719afb82f3257
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AlteredQupCakeUI Circuits_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 202
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: -87.5}
+        - {x: -68.5, y: -68.5}
+        - {x: -87.5, y: -3.5}
+        - {x: -68.5, y: 68.5}
+        - {x: -0.5, y: 86.5}
+        - {x: 67.5, y: 68.5}
+        - {x: 87.5, y: 2.5}
+        - {x: 67.5, y: -68.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6036ab228d34cd0a5d8088ffc60684
+      internalID: 2064084210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlteredQupCakeUI Circuits_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 203
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: -87.5}
+        - {x: -68.5, y: -68.5}
+        - {x: -87.5, y: -3.5}
+        - {x: -68.5, y: 68.5}
+        - {x: -0.5, y: 86.5}
+        - {x: 67.5, y: 68.5}
+        - {x: 87.5, y: 2.5}
+        - {x: 67.5, y: -68.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca15025fc009427d9f5b4aebb3764fb
+      internalID: 1206726101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlteredQupCakeUI Circuits_2
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 205
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: -87.5}
+        - {x: -68.5, y: -68.5}
+        - {x: -87.5, y: -3.5}
+        - {x: -68.5, y: 68.5}
+        - {x: -0.5, y: 86.5}
+        - {x: 67.5, y: 68.5}
+        - {x: 87.5, y: 2.5}
+        - {x: 67.5, y: -68.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ae5fdfe9a2142d4a72085f10410db7
+      internalID: 1498272474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlteredQupCakeUI Circuits_3
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 205
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: -87.5}
+        - {x: -68.5, y: -68.5}
+        - {x: -87.5, y: -3.5}
+        - {x: -68.5, y: 68.5}
+        - {x: -0.5, y: 86.5}
+        - {x: 67.5, y: 68.5}
+        - {x: 87.5, y: 2.5}
+        - {x: 67.5, y: -68.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62aa635e30c4f4ab38f0121f2fce9df0
+      internalID: 950932336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlteredQupCakeUI Circuits_4
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 204
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: -87.5}
+        - {x: -68.5, y: -68.5}
+        - {x: -87.5, y: -3.5}
+        - {x: -68.5, y: 68.5}
+        - {x: -0.5, y: 86.5}
+        - {x: 67.5, y: 68.5}
+        - {x: 87.5, y: 2.5}
+        - {x: 67.5, y: -68.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd24084cea034aef85e4fc5a2cfb405
+      internalID: 1456975146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlteredQupCakeUI Circuits_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: -87.5}
+        - {x: -68.5, y: -68.5}
+        - {x: -87.5, y: -3.5}
+        - {x: -68.5, y: 68.5}
+        - {x: -0.5, y: 86.5}
+        - {x: 67.5, y: 68.5}
+        - {x: 87.5, y: 2.5}
+        - {x: 67.5, y: -68.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef926bb2b49e4ff885bb880d22acf99
+      internalID: 108098164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlteredQupCakeUI Circuits_6
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 18
+        width: 548
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -256, y: 68.5}
+        - {x: -273, y: 47.5}
+        - {x: -268, y: -76.5}
+        - {x: 267, y: -75.5}
+        - {x: 273, y: -26.5}
+        - {x: 272, y: 61.5}
+        - {x: 262, y: 68.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1779925c4e216456bba42ba32d67ed3f
+      internalID: -2122474252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlteredQupCakeUI Circuits_7
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 18
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: -87.5}
+        - {x: -68.5, y: -68.5}
+        - {x: -87.5, y: -3.5}
+        - {x: -68.5, y: 68.5}
+        - {x: -0.5, y: 86.5}
+        - {x: 67.5, y: 68.5}
+        - {x: 87.5, y: 2.5}
+        - {x: 67.5, y: -68.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68dc848bd719e4576aa35fda69a8ea99
+      internalID: -690613909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      AlteredQupCakeUI Circuits_2: 1498272474
+      AlteredQupCakeUI Circuits_7: -690613909
+      AlteredQupCakeUI Circuits_3: 950932336
+      AlteredQupCakeUI Circuits_4: 1456975146
+      AlteredQupCakeUI Circuits_1: 1206726101
+      AlteredQupCakeUI Circuits_0: 2064084210
+      AlteredQupCakeUI Circuits_5: 108098164
+      AlteredQupCakeUI Circuits_6: -2122474252
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

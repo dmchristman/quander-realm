@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Level13
   num: 2
-  text: The good news is that we have won 12 rounds and only have 3 more to go!
+  text: The good news is that we completed 12 rounds and only have 3 more to go!
   speaker: 1
-  speakerExpression: 0
-  listener: 0
-  listenerExpression: 0
+  speakerExpression: 1
+  listener: 2
+  listenerExpression: 1
   contextImagePath: 

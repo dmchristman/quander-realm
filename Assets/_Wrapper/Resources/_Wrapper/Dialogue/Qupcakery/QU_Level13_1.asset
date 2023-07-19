@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QU_Level13
   num: 1
-  text: You mastered that so quickly! Time for another gadget!
+  text: Wow, you've really got the hang of this! You're ready for the mystery wrapper
+    gadget!
   speaker: 9
-  speakerExpression: 0
+  speakerExpression: 1
   listener: 0
   listenerExpression: 0
   contextImagePath: 

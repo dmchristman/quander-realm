@@ -49,9 +49,11 @@ namespace Wrapper
                 if (reward.IsUnlocked())
                 {
                     Routine.Start(reward.SelectCard());
-                    break;
+                    return;
                 }
             }
+            // set no cards active
+            Events.FeatureCard?.Invoke("none");
         }
 
         public bool IsFull()

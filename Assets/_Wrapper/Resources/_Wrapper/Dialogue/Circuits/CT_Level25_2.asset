@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: CT_Level25
   num: 2
-  text: Finally! You have SO many locks.
+  text: Finally! You have SO many kitty boxes, I mean door locks, I mean, well you
+    know what I mean.
   speaker: 1
-  speakerExpression: 1
+  speakerExpression: 0
   listener: 2
-  listenerExpression: 0
+  listenerExpression: 1
   contextImagePath: 

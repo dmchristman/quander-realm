@@ -17,6 +17,6 @@ MonoBehaviour:
   text: "Awesome work! Now, let\u2019s throw another pattern into the mix!"
   speaker: 2
   speakerExpression: 1
-  listener: 0
+  listener: 1
   listenerExpression: 0
   contextImagePath: 

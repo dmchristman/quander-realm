@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Level5
   num: 1
-  text: Wow we have great team chemistry! Let's win the next round too!
-  speaker: 1
-  speakerExpression: 0
-  listener: 0
-  listenerExpression: 0
+  text: 'Good job! Keep it up! '
+  speaker: 2
+  speakerExpression: 1
+  listener: 1
+  listenerExpression: 1
   contextImagePath: 

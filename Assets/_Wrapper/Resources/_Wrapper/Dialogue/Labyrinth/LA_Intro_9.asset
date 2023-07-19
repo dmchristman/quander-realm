@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: LA_Intro
   num: 9
-  text: and it affects the other!
+  text: "You\u2019ll understand soon. Let\u2019s get those computer parts!"
   speaker: 7
-  speakerExpression: 0
+  speakerExpression: 1
   listener: 6
-  listenerExpression: 0
+  listenerExpression: 1
   contextImagePath: 

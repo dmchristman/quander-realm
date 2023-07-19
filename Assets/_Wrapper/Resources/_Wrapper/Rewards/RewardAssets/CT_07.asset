@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CT_07
   m_EditorClassIdentifier: 
   game: 1
-  level: 17
+  level: 9
   rewardID: CT_07
   cardType: 3
   title: Quantum Processor
@@ -26,4 +26,4 @@ MonoBehaviour:
     - A quantum processor is made from
     gates and qubits'
   flavorText: Can I have some quantum screen time? Probably not.
-  imagePath: _Wrapper/Rewards/RewardImages_Circuits/_16_QuantumProcessor
+  imagePath: _Wrapper/Rewards/RewardImages_Circuits/_16_quantumprocessor

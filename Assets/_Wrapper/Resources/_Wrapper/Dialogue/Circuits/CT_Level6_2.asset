@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: CT_Level6
   num: 2
-  text: "You\u2019ve already seen all these gates, so here\u2019s another substitution
-    that works with them! Use the three on the left to make one Not-Gate."
+  text: HZH in a row can turn into just one single NOT Gate.
   speaker: 2
   speakerExpression: 0
-  listener: 0
+  listener: 1
   listenerExpression: 0
-  contextImagePath: 
+  contextImagePath: Circuits/ContextImages/HZH

@@ -16,7 +16,7 @@ MonoBehaviour:
   num: 1
   text: "Wow, you\u2019re keeping up super well! Ready for another gadget?"
   speaker: 9
-  speakerExpression: 0
+  speakerExpression: 1
   listener: 0
   listenerExpression: 0
   contextImagePath: 

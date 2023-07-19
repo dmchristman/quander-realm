@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QU_Level1
   num: 3
-  text: Press the play button in the lower right corner to deliver qupcakes to customers.
+  text: It changes a chocolate qupcake to a vanilla one, or a vanilla qupcake to
+    a chocolate one!
   speaker: 9
   speakerExpression: 0
   listener: 0
   listenerExpression: 0
-  contextImagePath: 
+  contextImagePath: Qupcakery/ContextImages/Qupcakery_line9_contextimage

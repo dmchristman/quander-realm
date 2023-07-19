@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequenceID: QB_Level3
   num: 5
-  text: 'A superposition means that instead of a token only being one color, it can
-    now hold be both colors at once! '
+  text: You will place either all yellow tokens or tokens that are a mix of red and
+    yellow. These are 75% probability of being yellow and a 25% of being red. You
+    won't know which it is until you place it!
   speaker: 3
   speakerExpression: 0
   listener: 2
   listenerExpression: 0
-  contextImagePath: 
+  contextImagePath: QueueBits/ContextImages/Dialogue3-Superposition75
