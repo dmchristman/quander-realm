@@ -36,7 +36,7 @@ See [Wiki](../../wiki) for more detailed documentation.
 ## Merging work into develop <a name="merge"></a>
 - Create a pull request to merge a work branch into `develop`. Make sure that the target repo is the `dmchristman` fork.
 - If there are conflicts, check out the work branch, merge `develop` into this branch, resolve the conflicts locally, and then push.
-- Add Devon as a review to the pull request.
+- Add Devon as a reviewer to the pull request.
 
  
 ### Firebase <a name="firebase"></a>
