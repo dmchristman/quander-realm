@@ -16,6 +16,7 @@ public class SparkBehavior : MonoBehaviour
 
     private void Start()
     {
+        Debug.Log("SparkBehavior.cs -> start");
         i = (uint) rng.Next(sprites.Length);
     }
 

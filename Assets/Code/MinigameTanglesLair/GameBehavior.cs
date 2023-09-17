@@ -121,6 +121,7 @@ public class GameBehavior : MonoBehaviour
     }
     private void Start()
     {
+        Debug.Log("GameBehavior.cs -> starting");
         // if (titleScene=true) {
         //     titleScene=false;
         //     return;

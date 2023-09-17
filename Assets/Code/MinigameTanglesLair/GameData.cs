@@ -10,11 +10,13 @@ public static class GameData
 
 
     //public static int CurrLevel { get; set; } = 0;
-    private static string datePatt = @"M/d/yyyy hh:mm:ss tt";
+    private static string datePattern = @"M/d/yyyy hh:mm:ss tt";
 
     private static bool tutorialShown = false;
-    private static List<string> log = new List<string>();
     private static bool dataLoaded = false;
+    
+    private static List<string> log = new List<string>();
+    
     private static Circuits_SaveData saveData;
     private static Circuits_ResearchData researchData;
 
@@ -52,27 +54,27 @@ public static class GameData
 
     public static void hintRequested()
     {
-        log.Add(string.Format("{0}-hint-{1}", saveData.currLevel, DateTime.UtcNow.ToString(datePatt)));
+        log.Add(string.Format("{0}-hint-{1}", saveData.currLevel, DateTime.UtcNow.ToString(datePattern)));
     }
 
     public static void incorrectSub()
     {
-        log.Add(string.Format("{0}-incorrect-{1}", saveData.currLevel, DateTime.UtcNow.ToString(datePatt)));
+        log.Add(string.Format("{0}-incorrect-{1}", saveData.currLevel, DateTime.UtcNow.ToString(datePattern)));
     }
 
     public static void correctSub()
     {
-        log.Add(string.Format("{0}-correct-{1}", saveData.currLevel, DateTime.UtcNow.ToString(datePatt)));
+        log.Add(string.Format("{0}-correct-{1}", saveData.currLevel, DateTime.UtcNow.ToString(datePattern)));
     }
 
     public static void levelStart()
     {
-        log.Add(string.Format("{0}-start-{1}", saveData.currLevel, DateTime.UtcNow.ToString(datePatt)));
+        log.Add(string.Format("{0}-start-{1}", saveData.currLevel, DateTime.UtcNow.ToString(datePattern)));
     }
 
     public static void levelRun()
     {
-        log.Add(string.Format("{0}-run-{1}", saveData.currLevel, DateTime.UtcNow.ToString(datePatt)));
+        log.Add(string.Format("{0}-run-{1}", saveData.currLevel, DateTime.UtcNow.ToString(datePattern)));
     }
     public static void checkingSub(string sub)
     {
@@ -89,6 +91,7 @@ public static class GameData
     }
 
     public static bool[] getCompletedLevels() {
+        Debug.Log("GameData.cs -> getCompletedLevels:" + saveData.completedLevels);
         return saveData.completedLevels;
     }
 
@@ -103,7 +106,7 @@ public static class GameData
 
         }
         saveData.currLevel += 1;
-        log.Add(string.Format("{0}-passed-{1}", saveData.currLevel, DateTime.UtcNow.ToString(datePatt)));
+        log.Add(string.Format("{0}-passed-{1}", saveData.currLevel, DateTime.UtcNow.ToString(datePattern)));
 
         Wrapper.Events.UpdateMinigameSaveData?.Invoke(Wrapper.Game.Circuits, saveData);
 

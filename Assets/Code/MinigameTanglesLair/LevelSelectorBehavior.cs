@@ -7,37 +7,49 @@ using UnityEngine.SceneManagement;
 
 public class LevelSelectorBehavior : MonoBehaviour
 {
+    // public GameData gameData;
     public GameObject buttonPrefab;
     public GameObject content;
     public GameBehavior gameBehavior;
     private LevelButtonBehavior[] buttons;
+
     // Start is called before the first frame update
+    // After clicking the "Play Button" on the TanglesLair Title Screen, Start is called
+
     void Start()
     {
+        Debug.Log("LevelSelectorBehavior.cs -> Start");
         buttons = new LevelButtonBehavior[CTConstants.N_LEVELS];
+
+        GameData.InitCircuitsSaveData();
+        
         for (int i = 0; i < CTConstants.N_LEVELS; i++)
         {
+            Debug.Log("LevelSelectorBehavior.cs -> Looping through N_LEVELS");
             GameObject newButton = Instantiate(buttonPrefab);
             newButton.transform.SetParent(content.transform);
             newButton.transform.localScale = Vector3.one;
             LevelButtonBehavior lb = newButton.GetComponent<LevelButtonBehavior>();
             lb.init(i, GameData.getCompletedLevels()[i], this);
             buttons[i] = lb;
+            Debug.Log("end of loop:" + i);
         }
 
     }
 
     public void updateLevels()
     {
+        Debug.Log("LevelSelectorBehavior.cs -> updateLevels");
         for (int i = 0; i < CTConstants.N_LEVELS; i++)
         {
             buttons[i].init(i, GameData.getCompletedLevels()[i], this);
         }
     }
 
-    public void onLevelSelection(int l)
+    public void onLevelSelection(int level)
     {
-        GameData.setCurrLevel(l);
+        Debug.Log("LevelSelectorBehavior.cs -> onLevelSelection");
+        GameData.setCurrLevel(level);
         string nextScene = GameData.getNextScene();
         SceneManager.LoadScene(nextScene);
 

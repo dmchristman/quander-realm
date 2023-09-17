@@ -18,6 +18,7 @@ public class GTimer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("GTimer start");
         if(autoStart)
         { 
 			startTimer();

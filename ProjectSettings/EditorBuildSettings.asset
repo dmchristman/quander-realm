@@ -6,135 +6,132 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Wrapper/Scenes/W_Main.unity
+    path: Assets/Levels/World/Scenes/W_Main.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/_Wrapper/Scenes/RewardCollection.unity
+    path: Assets/Levels/World/Scenes/RewardCollection.unity
     guid: e87d7a4fe26bd7247a709388a4b7b9a2
   - enabled: 1
-    path: Assets/BlackBox/Scenes/BlackBox.unity
+    path: Assets/Levels/MinigameBuriedTreasure/Scenes/BlackBox.unity
     guid: a097f6af882c6c54c84b8ada1b9ac3f3
   - enabled: 1
-    path: Assets/Circuits/Scenes/Circuits_Dialogue.unity
+    path: Assets/Levels/MinigameTanglesLair/Scenes/Circuits_Dialogue.unity
     guid: 7fb299b3592c74272b0d6bfbd0fce444
   - enabled: 1
-    path: Assets/Circuits/Scenes/CircuitsLevelScene.unity
+    path: Assets/Levels/MinigameTanglesLair/Scenes/CircuitsLevelScene.unity
     guid: a5557fbb23aaf429095ee8a908bfe457
-  - enabled: 1
+  - enabled: 0
     path: Assets/Circuits/Scenes/Old_Dialogue/DialogA-00.unity
     guid: 2107909960c014ad8bd69dd7f8c7d90a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Circuits/Scenes/Old_Dialogue/DialogB-00.unity
     guid: 4f9311746d0f34f8bb9935075deb6e68
-  - enabled: 1
+  - enabled: 0
     path: Assets/Circuits/Scenes/Old_Dialogue/DialogC-00.unity
     guid: b47044fc2e40246778db97843f04aa09
-  - enabled: 1
+  - enabled: 0
     path: Assets/Circuits/Scenes/Old_Dialogue/DialogC-01.unity
     guid: cf342fd744a164607838bb616d56d7c0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Circuits/Scenes/Old_Dialogue/DialogC-02.unity
     guid: c9a906dbc51cc4f1e9bc4c17bf9ddc33
-  - enabled: 1
+  - enabled: 0
     path: Assets/Circuits/Scenes/Old_Dialogue/DialogC-02A.unity
     guid: d3c3cf2d5a5084d54830dcece6de1e0a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Circuits/Scenes/Old_Dialogue/DialogC-03A.unity
     guid: c896c1d5564dc476eb82c79d687162c7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Circuits/Scenes/Old_Dialogue/DialogC-03B.unity
     guid: d0e9796ad421740b6925b419cdb8afd8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Circuits/Scenes/Old_Dialogue/DialogC-04.unity
     guid: 6e1a488a80c2e49db97628dbfc63a1db
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Circuits/Scenes/Circuits_Menu.unity
+    path: Assets/Levels/MinigameTanglesLair/Scenes/Circuits_Menu.unity
     guid: b7c519f42991c4a5f91714d478a541de
   - enabled: 1
-    path: Assets/Circuits/Scenes/Circuits_Title.unity
+    path: Assets/Levels/MinigameTanglesLair/Scenes/Circuits_Title.unity
     guid: 306ea994a8bf744a8972376cf9172e53
   - enabled: 1
-    path: Assets/Labyrinth/Scenes/LA_4x4.unity
+    path: Assets/Levels/MinigameTwinTanglement/Scenes/LA_4x4.unity
     guid: 1e6dbc971e2c94331a2bc9da92e4e234
   - enabled: 1
-    path: Assets/Labyrinth/Scenes/LA_5x5.unity
+    path: Assets/Levels/MinigameTwinTanglement/Scenes/LA_5x5.unity
     guid: 7b55674b5496c46e09796f8b3a2e562b
   - enabled: 1
-    path: Assets/Labyrinth/Scenes/LA_6x6.unity
+    path: Assets/Levels/MinigameTwinTanglement/Scenes/LA_6x6.unity
     guid: 0ea8e4aedf06f47a291a0e99e284fc52
   - enabled: 1
-    path: Assets/Labyrinth/Scenes/LA_LevelSelect.unity
+    path: Assets/Levels/MinigameTwinTanglement/Scenes/LA_LevelSelect.unity
     guid: 54a5bbd68c3874d1b8d4be248c54987d
   - enabled: 1
-    path: Assets/Labyrinth/Scenes/LA_MainMenu.unity
+    path: Assets/Levels/MinigameTwinTanglement/Scenes/LA_MainMenu.unity
     guid: 49247c9ba21254185809b47b8624c5da
   - enabled: 1
-    path: Assets/QueueBits/scenes/QB_Home.unity
+    path: Assets/Levels/MinigameQueueBits/Scenes/QB_Home.unity
     guid: a9d1ff95aa5324e3ebf3b7496c4a34c0
   - enabled: 1
-    path: Assets/QueueBits/scenes/QB_Level1.unity
+    path: Assets/Levels/MinigameQueueBits/Scenes/QB_Level1.unity
     guid: 598e7fcaf1d2344f5bdde05541e245dc
   - enabled: 1
-    path: Assets/QueueBits/scenes/QB_Level2.unity
+    path: Assets/Levels/MinigameQueueBits/Scenes/QB_Level2.unity
     guid: 401cb3b9aa25f4c6a950f55d5953f36d
   - enabled: 1
-    path: Assets/QueueBits/scenes/QB_Level3.unity
+    path: Assets/Levels/MinigameQueueBits/Scenes/QB_Level3.unity
     guid: d4d124a6a50c444c2b1de09d6a2d8a78
   - enabled: 1
-    path: Assets/QueueBits/scenes/QB_Level4.unity
+    path: Assets/Levels/MinigameQueueBits/Scenes/QB_Level4.unity
     guid: 24e6410bb345a42e0b24da10241f8c62
   - enabled: 1
-    path: Assets/QueueBits/scenes/QB_Level5.unity
+    path: Assets/Levels/MinigameQueueBits/Scenes/QB_Level5.unity
     guid: 86b31fdb27fe647268c9ee19d9825740
   - enabled: 1
-    path: Assets/QueueBits/scenes/QB_Level6.unity
+    path: Assets/Levels/MinigameQueueBits/Scenes/QB_Level6.unity
     guid: c591a5ee977254ac6b5041af1239814c
   - enabled: 1
-    path: Assets/QueueBits/scenes/QB_Level7.unity
+    path: Assets/Levels/MinigameQueueBits/Scenes/QB_Level7.unity
     guid: aac622bf5df2b420b91b2c32412aeda8
   - enabled: 1
-    path: Assets/QueueBits/scenes/QB_Level8.unity
+    path: Assets/Levels/MinigameQueueBits/Scenes/QB_Level8.unity
     guid: d01ce09613276433e9b1422cca631da9
   - enabled: 1
-    path: Assets/QueueBits/scenes/QB_Level9.unity
+    path: Assets/Levels/MinigameQueueBits/Scenes/QB_Level9.unity
     guid: 96e45bc6d14e94a3f89fc413571ec196
   - enabled: 1
-    path: Assets/QueueBits/scenes/QB_Level10.unity
+    path: Assets/Levels/MinigameQueueBits/Scenes/QB_Level10.unity
     guid: 82fb5696d6119453f8fc86f92c63befe
   - enabled: 1
-    path: Assets/QueueBits/scenes/QB_Level11.unity
+    path: Assets/Levels/MinigameQueueBits/Scenes/QB_Level11.unity
     guid: fd62aa713927047ce8e67cf09a0b22b0
   - enabled: 1
-    path: Assets/QueueBits/scenes/QB_Level12.unity
+    path: Assets/Levels/MinigameQueueBits/Scenes/QB_Level12.unity
     guid: 633686c7cef1d4870b25bdef5a690773
   - enabled: 1
-    path: Assets/QueueBits/scenes/QB_Level13.unity
+    path: Assets/Levels/MinigameQueueBits/Scenes/QB_Level13.unity
     guid: e0fab5d5bd8614ac4bb6eba289265f8e
   - enabled: 1
-    path: Assets/QueueBits/scenes/QB_Level14.unity
+    path: Assets/Levels/MinigameQueueBits/Scenes/QB_Level14.unity
     guid: dd0abda6f8f044a9ea3e72dc62f907fe
   - enabled: 1
-    path: Assets/QueueBits/scenes/QB_Level15.unity
+    path: Assets/Levels/MinigameQueueBits/Scenes/QB_Level15.unity
     guid: f185c3151508a473d9f4c95d7124b88a
   - enabled: 1
-    path: Assets/QueueBits/scenes/QB_LevelSelect.unity
+    path: Assets/Levels/MinigameQueueBits/Scenes/QB_LevelSelect.unity
     guid: 637a8f50216d54179a0f3a189c06259d
   - enabled: 1
-    path: Assets/Qupcakes/Scenes/QU_Level.unity
+    path: Assets/Levels/MinigameQupcakery/Scenes/QU_Level.unity
     guid: 884c9f85490a1430fb94fbd0f5e8a686
   - enabled: 1
-    path: Assets/Qupcakes/Scenes/QU_LevelSelection.unity
+    path: Assets/Levels/MinigameQupcakery/Scenes/QU_LevelSelection.unity
     guid: a438c746c32554ae18d7a9b4c66f2055
   - enabled: 1
-    path: Assets/Qupcakes/Scenes/QU_LoseMenu.unity
+    path: Assets/Levels/MinigameQupcakery/Scenes/QU_LoseMenu.unity
     guid: fb87b5f797373496280e0db74b260008
   - enabled: 1
-    path: Assets/Qupcakes/Scenes/QU_QupcakesStartScene.unity
+    path: Assets/Levels/MinigameQupcakery/Scenes/QU_QupcakesStartScene.unity
     guid: 61d30324889c048f685965c99e8c8ec7
   - enabled: 1
-    path: Assets/Qupcakes/Scenes/QU_WinMenu.unity
+    path: Assets/Levels/MinigameQupcakery/Scenes/QU_WinMenu.unity
     guid: e66917c1c63714c46bccd9e7e907260b
   m_configObjects: {}

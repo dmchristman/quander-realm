@@ -21,10 +21,9 @@ public class LevelButtonBehavior : MonoBehaviour
         owner.onLevelSelection(level);
     }
 
-    public void init(int l, bool completed, LevelSelectorBehavior o)
+    public void init(int level, bool completed, LevelSelectorBehavior owner)
     {
-        owner = o;
-        level = l;
+        Debug.Log("LevelButtonBehavior Log, Level:" + level + " completed:" + completed + " owner:" + owner);
         buttonText.text = $"{level}";
 
         Image numberObject = panel.transform.Find("LevelNumber").GetComponent<Image>();

@@ -14,9 +14,12 @@ namespace Labyrinth
         // public static TTSaveData saveData;
 
         public static void LoadGame() {
+            Debug.Log("TwinTanglement Game Loaded (inside Load.cs)");
         // public static void LoadTTSaveData() {
 
             try {
+                Debug.Log("Invoked save string");
+
                 string saveString = Wrapper.Events.GetMinigameSaveData?.Invoke(Wrapper.Game.Labyrinth);
                 Data.Instance.ttSaveData = JsonUtility.FromJson<TTSaveData>(saveString);
             }

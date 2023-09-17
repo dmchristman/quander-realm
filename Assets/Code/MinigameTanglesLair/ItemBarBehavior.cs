@@ -23,6 +23,7 @@ public class ItemBarBehavior : MonoBehaviour
 
     private void Start()
     {
+        Debug.Log("ItemBarBehavior Start");
         foreach (Transform child in content)
         {
             Button currButton = child.gameObject.GetComponent<Button>();

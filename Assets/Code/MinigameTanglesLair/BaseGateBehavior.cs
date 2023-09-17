@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class BaseGateBehavior : MonoBehaviour
 {
-    // This is a comment
     public int x;
     public int y;
 
@@ -21,6 +20,7 @@ public class BaseGateBehavior : MonoBehaviour
 
     private void Start()
     {
+        Debug.Log("BaseGateBehavior.cs -> TanglesLair Has Started!! yay");
     }
 
     public void toggle()
