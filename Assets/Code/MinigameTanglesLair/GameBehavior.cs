@@ -29,6 +29,12 @@ public class GameBehavior : MonoBehaviour
 
     public GameObject linePrefab;
 
+    public GameObject CNOT_Gate;
+    public GameObject CZ_Gate;
+    public GameObject H_Gate;
+    public GameObject NOT_Gate;
+    public GameObject SWAP_Gate;
+    public GameObject Z_Gate;
 
     public Transform linesTransform;
     //private HashSet<LinkedListNode<GateData>> selection = new HashSet<LinkedListNode<GateData>>();
@@ -64,6 +70,7 @@ public class GameBehavior : MonoBehaviour
 
     private void renderCircuit(List<List<String>> newCircuit)
     {
+        Debug.Log("inside renderCircuit");
         foreach (Transform child in gatesObject.transform)
         {
             Destroy(child.gameObject);
@@ -77,38 +84,45 @@ public class GameBehavior : MonoBehaviour
         //camera.orthographicSize = Math.Max(circuitSize * 2.5f, 25);
 
 
-
         var loadedGate = Resources.Load("Circuits/Prefabs/H_Gate");
         gateObjects = new BaseGateBehavior[circuit.Count, circuit[0].Count];
         Vector3 offset = new Vector3((-nCols / 2) * CTConstants.gridResolution_w, ((-nLines / 2) - .5f) * CTConstants.gridResolution_h);
+        
+        Debug.Log("before for loop render circuit, " + circuit.Count);
         for (int i = 0; i < circuit.Count; i++)
         {
             string row = "";
             for (int j = 0; j < circuit[i].Count; j++)
-            {
+            {   
+                Debug.Log("i:" + i + " j:" + j);
+                Debug.Log("circuit[i][j]:" + circuit[i][j]);
+
                 row += circuit[i][j];
+                Debug.Log("row is now:" + row);
                 String gateSelected = circuit[i][j];
+                Debug.Log("gateSelected init:" + gateSelected);
                 if (circuit[i][j] == null) { gateSelected = ""; }
                 gateSelected = gateSelected.ToUpper();
+                Debug.Log("gateSelectioned:" + gateSelected);
                 switch (gateSelected)
                 {
                     case "H-0":
-                        instantiateGate("Circuits/Prefabs/H_Gate", j, i, nLines, circuit[i].Count);
+                        instantiateGate("H_Gate", j, i, nLines, circuit[i].Count);
                         break;
                     case "Z-0":
-                        instantiateGate("Circuits/Prefabs/Z_Gate", j, i, nLines, circuit[i].Count);
+                        instantiateGate("Z_Gate", j, i, nLines, circuit[i].Count);
                         break;
                     case "X-0":
-                        instantiateGate("Circuits/Prefabs/NOT_Gate", j, i, nLines, circuit[i].Count);
+                        instantiateGate("NOT_Gate", j, i, nLines, circuit[i].Count);
                         break;
                     case "CX-0":
-                        instantiateGate("Circuits/Prefabs/CNOT_Gate", j, i, nLines, circuit[i].Count);
+                        instantiateGate("CNOT_Gate", j, i, nLines, circuit[i].Count);
                         break;
                     case "CZ-0":
-                        instantiateGate("Circuits/Prefabs/CZ_Gate", j, i, nLines, circuit[i].Count);
+                        instantiateGate("CZ_Gate", j, i, nLines, circuit[i].Count);
                         break;
                     case "SWAP-0":
-                        instantiateGate("Circuits/Prefabs/SWAP_Gate", j, i, nLines, circuit[i].Count);
+                        instantiateGate("SWAP_Gate", j, i, nLines, circuit[i].Count);
                         break;
                     default:
                         //Debug.Log("No Match for: " + gateSelected);
@@ -118,6 +132,7 @@ public class GameBehavior : MonoBehaviour
         }
 
         gatesObject.transform.localScale = Vector3.one * sceneScale;
+        Debug.Log("end of renderCircuit");
     }
     private void Start()
     {
@@ -127,6 +142,8 @@ public class GameBehavior : MonoBehaviour
         //     return;
         // }
         GameData.levelStart();
+        Debug.Log("GameData.levelStart() successfull");
+        
         selection = new HashSet<BaseGateBehavior>();
         String[] gatesToSample;
         String[] allowedSubstitutions;
@@ -144,17 +161,20 @@ public class GameBehavior : MonoBehaviour
         }
 
         Image numberObject = GameObject.Find("Canvas/LevelNumber/Number").GetComponent<Image>();
-        if (GameData.getCurrLevel() < CTConstants.N_LEVELS) {
+        if (GameData.getCurrLevel() < CTConstants.N_LEVELS) 
+        {
             numberObject.sprite = numberSprites[GameData.getCurrLevel()];
         }
 
         if (GameData.getCurrLevel() > CTConstants.N_LEVELS)
         {
+            // Load the Circuits Menu if current game level > number of levels
             SceneManager.LoadScene("Circuits_Menu");
             return; // sorry david :/
         }
         else if (GameData.getCurrLevel() <= 9)
         {
+            Debug.Log("if statement b");
             String[] empty = new String[0];
             int startingSize = 9;
             tempCircuit = new List<List<string>>(3);
@@ -163,8 +183,8 @@ public class GameBehavior : MonoBehaviour
             const string H = "H-0";
             const string X = "X-0";
             const string Z = "Z-0";
-            switch (GameData.getCurrLevel())
-            {
+            Debug.Log("before switch statement:" + GameData.getCurrLevel());
+            switch (GameData.getCurrLevel()){
                 case 0:
                     Wrapper.Events.StartDialogueSequence?.Invoke("CT_Intro");
                     row.Add(H);
@@ -199,6 +219,7 @@ public class GameBehavior : MonoBehaviour
                     row.Add(H);
                     break;
                 case 5:
+                    Debug.Log("start of case 5");
                     row.Add(H);
                     row.Add(X);
                     row.Add(H);
@@ -212,6 +233,8 @@ public class GameBehavior : MonoBehaviour
                     row.Add(X);
                     row.Add(H);
                     row.Add(H);
+
+                    Debug.Log("end of case 5" + row);
                     break;
                 case 6:
                     row.Add(H);
@@ -297,6 +320,7 @@ public class GameBehavior : MonoBehaviour
                     currRow.Add(null);
                 }
             }
+            Debug.Log("end of block");
         }
         else if (GameData.getCurrLevel() < 14)
         {
@@ -340,9 +364,9 @@ public class GameBehavior : MonoBehaviour
 
 
         }
+
         sceneScale = Math.Min(Math.Min(1f, 6.5f / tempCircuit[0].Count), 3.5f / nLines);
         renderCircuit(tempCircuit);
-
         int nCols = circuit[0].Count;
         nLines = circuit.Count;
         Vector3 offset = new Vector3((-nCols / 2) * CTConstants.gridResolution_w, ((-nLines / 2) - .5f) * CTConstants.gridResolution_h * sceneScale);
@@ -357,20 +381,31 @@ public class GameBehavior : MonoBehaviour
             lr.SetPositions(positions);
             currLine.transform.parent = linesTransform;
         }
+        Debug.Log("end of function here Gamebehavior");
     }
 
     private void instantiateGate(String resPath, int x, int y, int nLines, int nCols)
     {
+        Debug.Log("instantiateGate: " + resPath);
+
+        // Adjust resPath to the correct path (asset -> resources -> tangleslair -> prefabs)
+        resPath = "MinigameTanglesLair/Prefabs/" + resPath;
+
         var loadedGate = Resources.Load(resPath);
+
+        Debug.Log("loadedGate from resources: " + loadedGate);
         GameObject currGate = (GameObject)Instantiate(loadedGate);
+        Debug.Log("after attempting to Instantiate loadedGate");
         BaseGateBehavior gb = currGate.GetComponent<BaseGateBehavior>();
         gb.x = x;
         gb.y = y;
         gb.gameBehavior = this;
         currGate.transform.parent = gatesObject.transform;
+        Debug.Log("before vector offset");
         Vector3 offset = new Vector3((-nCols / 2) * CTConstants.gridResolution_w, (-nLines / 2) * CTConstants.gridResolution_h);
         currGate.transform.position = new Vector3(CTConstants.gridResolution_w * x, CTConstants.gridResolution_h * (nLines - y - 1)) + offset;
         gateObjects[y, x] = gb;
+        Debug.Log("end of instantiate gate");
     }
 
     public void goToLevel(int l)

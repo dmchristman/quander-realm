@@ -68,7 +68,8 @@ public static class GameData
     }
 
     public static void levelStart()
-    {
+    {   
+        Debug.Log("levelStart() in GameData.cs");
         log.Add(string.Format("{0}-start-{1}", saveData.currLevel, DateTime.UtcNow.ToString(datePattern)));
     }
 
@@ -120,12 +121,14 @@ public static class GameData
 
 
     public static string getNextScene()
-    {
+    {   
+        // outString is a boolean array that tracks which levels have been completed using
+        // 0's and 1's 
         string outString = String.Join(",", saveData.completedLevels.Select(passed => passed ? "1" : "0"));
         outString += "\n";
         outString += String.Join("\n", log);
-        Debug.Log("LOG");
-        Debug.Log(String.Join("\n", log));
+        // Debug.Log("LOG");
+        // Debug.Log(String.Join("\n", log));
         Debug.Log(outString);
 
 

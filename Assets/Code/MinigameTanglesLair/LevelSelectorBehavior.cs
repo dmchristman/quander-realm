@@ -23,16 +23,15 @@ public class LevelSelectorBehavior : MonoBehaviour
 
         GameData.InitCircuitsSaveData();
         
+        Debug.Log("LevelSelectorBehavior.cs -> Looping through N_LEVELS");
         for (int i = 0; i < CTConstants.N_LEVELS; i++)
         {
-            Debug.Log("LevelSelectorBehavior.cs -> Looping through N_LEVELS");
             GameObject newButton = Instantiate(buttonPrefab);
             newButton.transform.SetParent(content.transform);
             newButton.transform.localScale = Vector3.one;
             LevelButtonBehavior lb = newButton.GetComponent<LevelButtonBehavior>();
             lb.init(i, GameData.getCompletedLevels()[i], this);
             buttons[i] = lb;
-            Debug.Log("end of loop:" + i);
         }
 
     }
