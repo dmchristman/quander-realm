@@ -24,7 +24,7 @@ public static class GameData
     //[DllImport("__Internal")]
     //private static extern void SendData(string callback);
 
-    public static void InitCircuitsSaveData()
+    public static void InitTanglesLairSaveData()
     {
         
         if (!dataLoaded)
@@ -92,7 +92,6 @@ public static class GameData
     }
 
     public static bool[] getCompletedLevels() {
-        Debug.Log("GameData.cs -> getCompletedLevels:" + saveData.completedLevels);
         return saveData.completedLevels;
     }
 

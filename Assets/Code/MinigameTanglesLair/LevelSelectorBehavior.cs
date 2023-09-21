@@ -21,7 +21,7 @@ public class LevelSelectorBehavior : MonoBehaviour
         Debug.Log("LevelSelectorBehavior.cs -> Start");
         buttons = new LevelButtonBehavior[CTConstants.N_LEVELS];
 
-        GameData.InitCircuitsSaveData();
+        GameData.InitTanglesLairSaveData();
         
         Debug.Log("LevelSelectorBehavior.cs -> Looping through N_LEVELS");
         for (int i = 0; i < CTConstants.N_LEVELS; i++)

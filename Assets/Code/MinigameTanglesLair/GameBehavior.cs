@@ -94,39 +94,29 @@ public class GameBehavior : MonoBehaviour
             string row = "";
             for (int j = 0; j < circuit[i].Count; j++)
             {   
-                Debug.Log("i:" + i + " j:" + j);
-                Debug.Log("circuit[i][j]:" + circuit[i][j]);
+                Debug.Log($"circuit[{i}][{j}] = {circuit[i][j]}");
 
                 row += circuit[i][j];
                 Debug.Log("row is now:" + row);
                 String gateSelected = circuit[i][j];
-                Debug.Log("gateSelected init:" + gateSelected);
                 if (circuit[i][j] == null) { gateSelected = ""; }
                 gateSelected = gateSelected.ToUpper();
                 Debug.Log("gateSelectioned:" + gateSelected);
-                switch (gateSelected)
+
+                string gateStringParam = gateSelected switch
                 {
-                    case "H-0":
-                        instantiateGate("H_Gate", j, i, nLines, circuit[i].Count);
-                        break;
-                    case "Z-0":
-                        instantiateGate("Z_Gate", j, i, nLines, circuit[i].Count);
-                        break;
-                    case "X-0":
-                        instantiateGate("NOT_Gate", j, i, nLines, circuit[i].Count);
-                        break;
-                    case "CX-0":
-                        instantiateGate("CNOT_Gate", j, i, nLines, circuit[i].Count);
-                        break;
-                    case "CZ-0":
-                        instantiateGate("CZ_Gate", j, i, nLines, circuit[i].Count);
-                        break;
-                    case "SWAP-0":
-                        instantiateGate("SWAP_Gate", j, i, nLines, circuit[i].Count);
-                        break;
-                    default:
-                        //Debug.Log("No Match for: " + gateSelected);
-                        break;
+                    "H-0" => "H_Gate",
+                    "Z-0" => "Z_Gate",
+                    "X-0" => "NOT_Gate",
+                    "CX-0" => "CNOT_Gate",
+                    "CZ-0" => "CZ_Gate",
+                    "SWAP-0" => "SWAP_Gate",
+                    _ => string.Empty,
+                };
+
+                if (gateStringParam != string.Empty)
+                {
+                    instantiateGate( gateStringParam, j, i, nLines, circuit[i].Count);
                 }
             }
         }
@@ -142,7 +132,7 @@ public class GameBehavior : MonoBehaviour
         //     return;
         // }
         GameData.levelStart();
-        Debug.Log("GameData.levelStart() successfull");
+        Debug.Log("GameData.levelStart() successful");
         
         selection = new HashSet<BaseGateBehavior>();
         String[] gatesToSample;
@@ -174,7 +164,6 @@ public class GameBehavior : MonoBehaviour
         }
         else if (GameData.getCurrLevel() <= 9)
         {
-            Debug.Log("if statement b");
             String[] empty = new String[0];
             int startingSize = 9;
             tempCircuit = new List<List<string>>(3);
@@ -219,7 +208,6 @@ public class GameBehavior : MonoBehaviour
                     row.Add(H);
                     break;
                 case 5:
-                    Debug.Log("start of case 5");
                     row.Add(H);
                     row.Add(X);
                     row.Add(H);
@@ -233,8 +221,6 @@ public class GameBehavior : MonoBehaviour
                     row.Add(X);
                     row.Add(H);
                     row.Add(H);
-
-                    Debug.Log("end of case 5" + row);
                     break;
                 case 6:
                     row.Add(H);
@@ -320,7 +306,6 @@ public class GameBehavior : MonoBehaviour
                     currRow.Add(null);
                 }
             }
-            Debug.Log("end of block");
         }
         else if (GameData.getCurrLevel() < 14)
         {
