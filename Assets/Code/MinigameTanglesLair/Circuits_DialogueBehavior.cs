@@ -43,7 +43,9 @@ public class Circuits_DialogueBehavior : MonoBehaviour
                 break;
             //    return "DialogC-04";
             case 25:
+                Debug.Log("case 25 of tangle's lair dialogue");
                 Wrapper.Events.StartDialogueSequence?.Invoke("CT_Level25");
+                Debug.Log("successful invocation of wrapper event, case 25");
                 break;
             //    return "DialogC-04";
             default:

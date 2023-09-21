@@ -19,4 +19,4 @@ MonoBehaviour:
   speakerExpression: 1
   listener: 1
   listenerExpression: 0
-  contextImagePath: Circuits/ContextImages/SWAP
+  contextImagePath: Images/Gates_Stylized/SWAP
