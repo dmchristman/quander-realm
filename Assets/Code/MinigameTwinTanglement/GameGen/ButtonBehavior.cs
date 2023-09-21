@@ -18,6 +18,8 @@ namespace Labyrinth
         public Button[] buttons;
 
         void Start() {
+            Debug.Log("Start inside ButtonBehavior");
+
             if (SceneManager.GetActiveScene().name == "LA_MainMenu") {
                 Load.LoadGame();
                 DialogueAndRewards.Instance.updateDialogueDict();

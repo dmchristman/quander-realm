@@ -37,6 +37,8 @@ namespace Labyrinth
     // ~~~~~~~~~~~~~~~ INITIALIZING ~~~~~~~~~~~~~~~
 
         public void StartMaze() {
+            Debug.Log("StartMaze inside Maze.cs");
+
             gb = GameObject.Find("GameManagerLocal").GetComponent<GameBehavior>();
             pm = GameObject.Find("Players").GetComponent<PlayerMovement>();
 

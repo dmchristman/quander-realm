@@ -10,6 +10,7 @@ public class LevelButtonBehavior : MonoBehaviour
     public Sprite starSprite;
     public GameObject panel;
     //public Text scoreText;
+  
     private LevelSelectorBehavior owner;
     private int level;
 
@@ -18,13 +19,17 @@ public class LevelButtonBehavior : MonoBehaviour
 
     public void onClick()
     {
+        Debug.Log("LevelButtonBehavior.cs -> onClick");
+        Debug.Log("level:" + level);
         owner.onLevelSelection(level);
     }
 
-    public void init(int l, bool completed, LevelSelectorBehavior o)
+    public void init(int level_param, bool completed, LevelSelectorBehavior owner_param)
     {
-        owner = o;
-        level = l;
+        owner = owner_param;
+        level = level_param;
+        
+        Debug.Log("LevelButtonBehavior Log, Level:" + level + " completed:" + completed + " owner:" + owner);
         buttonText.text = $"{level}";
 
         Image numberObject = panel.transform.Find("LevelNumber").GetComponent<Image>();

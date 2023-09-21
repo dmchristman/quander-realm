@@ -8,10 +8,10 @@ public class Circuits_DialogueBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        Debug.Log("Circuits_DialogueBehavior.cs -> Dialogue Behavior Start");
         int offset = 0;
 
-        GameData.InitCircuitsSaveData();
+        GameData.InitTanglesLairSaveData();
         Debug.Log(GameData.getCurrLevel());
 
         switch (GameData.getCurrLevel() - offset)

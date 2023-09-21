@@ -17,6 +17,7 @@ public class WebLoadBehavior : MonoBehaviour
 
     private void Start()
     {
+        Debug.Log("WebLoadBehavior.cs -> Start");
         GameLoaded ("loadData");
     }
 #endif
