@@ -60,3 +60,6 @@ sysinfo.txt
 crashlytics-build.properties
 ProjectSettings/BurstAotSettings_StandaloneWindows.json
 ProjectSettings/CommonBurstAotSettings.json
+
+# FilaContent auth token
+tools\FilaContent\token.json
